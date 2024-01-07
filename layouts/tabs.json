@@ -1,0 +1,16 @@
+{
+    "tabs_layout": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Zork Grand Inquisitor",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "map"
+                    ]
+                }
+            }
+        ]
+    }
+}

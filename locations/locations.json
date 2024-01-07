@@ -1,0 +1,1343 @@
+[
+    {
+        "name": "Zork Grand Inquisitor",
+        "children": [
+            {
+                "name": "Arrest the Vandal!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 824,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Arrest the Vandal!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachPortFoozleJacksShop"]
+                    }
+                ]
+            },
+            {
+                "name": "Artifacts, Explained",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 650,
+                        "y": 690,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Artifacts, Explained",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETechHallway", 
+                            "$canReachGUETechHallwayBackwards"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "A Smallway",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 620,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "A Smallway",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech,spell_igram", 
+                            "$canReachGUETechBackwards,spell_igram"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Beautiful, That's Plenty!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 864,
+                        "y": 550,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Beautiful, That's Plenty!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayFloodControlDam,spell_throck"]
+                    }
+                ]
+            },
+            {
+                "name": "BEBURTT, Demystified",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 710,
+                        "y": 690,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "BEBURTT, Demystified",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETechHallway,pouch_of_zorkmids,spell_kendall",
+                            "$canReachGUETechHallwayBackwards,pouch_of_zorkmids,spell_kendall"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Brog Do Good!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 942,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Brog Do Good!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "Brog Much Better at This Game",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 972,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Brog Much Better at This Game",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "Crisis Averted",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 680,
+                        "y": 690,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Crisis Averted",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech,$canReachGUETechHallway,zork_rocks,pouch_of_zorkmids",
+                            "$canReachGUETechBackwards,$canReachGUETechHallway,zork_rocks,pouch_of_zorkmids"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dragon Archipelago Time Tunnel",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1200,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dragon Archipelago Time Tunnel",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHadesBeyondGates,spell_narwile"]
+                    }
+                ]
+            },
+            {
+                "name": "Dunce Locker",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 770,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dunce Locker",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech,pouch_of_zorkmids",
+                            "$canReachGUETechBackwards,pouch_of_zorkmids"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Elsewhere",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 404,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Elsewhere",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Enjoy Your Trip!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 432,
+                        "y": 966,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enjoy Your Trip!",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachSubwayCrossroads,spell_kendall",
+                            "$canReachSubwayAlternate,spell_kendall"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Getting Some Change",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 680,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Getting Some Change",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech,old_scratch_card",
+                            "$canReachGUETechBackwards,old_scratch_card"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "GUE Tech Entrance Exam",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 590,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "GUE Tech Entrance Exam",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech",
+                            "$canReachGUETechBackwards"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Have a Hell of a Day!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1140,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Have a Hell of a Day!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHadesShore"]
+                    }
+                ]
+            },
+            {
+                "name": "Help... Me. Can't... Breathe",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 764,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Help... Me. Can't... Breathe",
+                        "visibility_rules": [],
+                        "access_rules": ["plastic_six_pack_holder"]
+                    }
+                ]
+            },
+            {
+                "name": "Hey, Free Dirt!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 650,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hey, Free Dirt!",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech,shovel",
+                            "$canReachGUETechBackwards,shovel"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Imbue BEBURTT",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1020,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Imbue BEBURTT",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLab,blank_scroll_box_access"]
+                    }
+                ]
+            },
+            {
+                "name": "Into the Foliage",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 164,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Into the Foliage",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachCrossroads,sword"]
+                    }
+                ]
+            },
+            {
+                "name": "In Case of Adventure, Break Glass!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 134,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "In Case of Adventure, Break Glass!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachCrossroads,hammer"]
+                    }
+                ]
+            },
+            {
+                "name": "In Magic We Trust",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 194,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "In Magic We Trust",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachCrossroads,spell_rezrov"]
+                    }
+                ]
+            },
+            {
+                "name": "I Hope You Can Climb Up There With All This Junk",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 906,
+                        "y": 988,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "I Hope You Can Climb Up There With All This Junk",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayMonastery,spell_glorf,sword"]
+                    }
+                ]
+            },
+            {
+                "name": "I Like Your Style!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 990,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "I Like Your Style!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayFloodControlDam,spell_rezrov,$canReachSpellLabBridge,sword,spell_golgatem"]
+                    }
+                ]
+            },
+            {
+                "name": "Magic Forever!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 434,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Magic Forever!",
+                        "visibility_rules": [],
+                        "access_rules": ["rope,lantern"]
+                    }
+                ]
+            },
+            {
+                "name": "300 Year Old National Treasure",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 894,
+                        "y": 550,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "300 Year Old National Treasure",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayFloodControlDam,spell_rezrov"]
+                    }
+                ]
+            },
+            {
+                "name": "NOOOOOOOOOOOOO!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 710,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "NOOOOOOOOOOOOO!",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech,pouch_of_zorkmids",
+                            "$canReachGUETechBackwards,pouch_of_zorkmids"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Nothin' Like a Good Stogie",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 190,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Nothin' Like a Good Stogie",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachDMLair",
+                            "$canReachDMLairBackwards"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Oh Dear God, It's a Dragon!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 222,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Oh Dear God, It's a Dragon!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDragonArchipelago,totem_griff,griffs_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "Old Scratch Winner!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1235,
+                        "y": 700,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Old Scratch Winner!",
+                        "visibility_rules": [],
+                        "access_rules": ["old_scratch_card"]
+                    }
+                ]
+            },
+            {
+                "name": "Open the Gates of Hell",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1170,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Open the Gates of Hell",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHadesBeyondGates"]
+                    }
+                ]
+            },
+            {
+                "name": "Outsmart the Quelbees",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 250,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Outsmart the Quelbees",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,hungus_lard,sword"]
+                    }
+                ]
+            },
+            {
+                "name": "Planetfall",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1126,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Planetfall",
+                        "visibility_rules": [],
+                        "access_rules": ["lantern"]
+                    }
+                ]
+            },
+            {
+                "name": "Plants Are Man's Best Friend",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 280,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Plants Are Man's Best Friend",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachDMLair,spell_throck,snapdragon,hammer",
+                            "$canReachDMLairBackwards,spell_throck,snapdragon,hammer"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Port Foozle Time Tunnel",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 980,
+                        "y": 1028,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Port Foozle Time Tunnel",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonastery,large_telegraph_hammer,spell_narwile"]
+                    }
+                ]
+            },
+            {
+                "name": "Prozorked",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 160,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Prozorked",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachDMLair,prozork_tablet",
+                            "$canReachDMLairBackwards,prozork_tablet"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Reassemble SNAVIG",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 310,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Reassemble SNAVIG",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,spell_throck,snapdragon,hammer"]
+                    }
+                ]
+            },
+            {
+                "name": "SNAVIG, Repaired",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1050,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "SNAVIG, Repaired",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,spell_throck,snapdragon,hammer,$canReachSpellLab"]
+                    }
+                ]
+            },
+            {
+                "name": "Souvenir",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 834,
+                        "y": 550,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Souvenir",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayFloodControlDam,pouch_of_zorkmids"]
+                    }
+                ]
+            },
+            {
+                "name": "Strip Grue, Fire, Water",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 612,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Strip Grue, Fire, Water",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachPortFoozlePast,totem_lucy,lucys_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "Sucking Rocks",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 740,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sucking Rocks",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachGUETech,pouch_of_zorkmids,perma_suck_machine",
+                            "$canReachGUETechBackwards,pouch_of_zorkmids,perma_suck_machine"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Thar She Blows!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 252,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Thar She Blows!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDragonArchipelago,totem_griff,griffs_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "That's the Spirit!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 794,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "That's the Spirit!",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "The Underground Underground",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 224,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "The Underground Underground",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachCrossroads,subway_token"]
+                    }
+                ]
+            },
+            {
+                "name": "Totemized Daily Billboard Functioning Correctly",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 44,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Totemized Daily Billboard Functioning Correctly",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Umbrella Flowers",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 254,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Umbrella Flowers",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLab,blank_scroll_box_access"]
+                    }
+                ]
+            },
+            {
+                "name": "Useless, But Fun",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 924,
+                        "y": 550,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Useless, But Fun",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayFloodControlDam,spell_golgatem"]
+                    }
+                ]
+            },
+            {
+                "name": "Want Some Rye? Course Ya Do!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 220,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Want Some Rye? Course Ya Do!",
+                        "visibility_rules": [],
+                        "access_rules": [
+                            "$canReachDMLair,mead_light,zimdor_scroll",
+                            "$canReachDMLairBackwards,mead_light,zimdom_scroll"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "We Got a High Roller!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 582,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "We Got a High Roller!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachPortFoozlePast,totem_lucy,lucys_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "White House Time Tunnel",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 340,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "White House Time Tunnel",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,spell_narwile"]
+                    }
+                ]
+            },
+            {
+                "name": "Wow! I've Never Gone Inside Him Before!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 370,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wow! I've Never Gone Inside Him Before!",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,spell_obidil"]
+                    }
+                ]
+            },
+            {
+                "name": "You Gained 86 Experience Points",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 960,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "You Gained 86 Experience Points",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLabBridge,sword"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Arrested With Jack",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 854,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Arrested With Jack",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["lantern"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Attacked the Quelbees",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 400,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Attacked the Quelbees",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": [
+                            "$canReachDMLair,sword",
+                            "$canReachDMLairBackwards,sword"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Climbed Out of the Well",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 284,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Climbed Out of the Well",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachCrossroads"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Eaten by a Grue",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 464,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Eaten by a Grue",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["rope"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Jumped in Bottomless Pit",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 590,
+                        "y": 790,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Jumped in Bottomless Pit",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": [
+                            "$canReachGUETech",
+                            "$canReachGUETechBackwards"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Lost Game of Strip Grue, Fire, Water",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 642,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Lost Game of Strip Grue, Fire, Water",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachPortFoozlePast,totem_lucy,lucys_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Lost Soul to Old Scratch",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1265,
+                        "y": 700,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Lost Soul to Old Scratch",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["old_scratch_card"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Outsmarted by the Quelbees",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 430,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Outsmarted by the Quelbees",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": [
+                            "$canReachDMLair,hungus_lard",
+                            "$canReachDMLairBackwards,hungus_lard"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Sliced up by the Invisible Guard",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1080,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Sliced up by the Invisible Guard",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachSpellLabBridge"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Step Into the Infinite",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 620,
+                        "y": 790,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Step Into the Infinite",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": [
+                            "$canReachGUETech,spell_igram",
+                            "$canReachGUETechBackwards,spell_igram"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Swallowed by a Dragon",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 282,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Swallowed by a Dragon",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachDragonArchipelago,totem_griff,griffs_time_tunnel_items"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: THROCKed the Grass",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 680,
+                        "y": 790,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: THROCKed the Grass",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": [
+                            "$canReachGUETech,spell_throck",
+                            "$canReachGUETechBackwards,spell_throck"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Totemized?",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1010,
+                        "y": 1028,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Totemized?",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachMonastery"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Totemized... Permanently",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1040,
+                        "y": 1028,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Totemized... Permanently",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachMonastery"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: You're Not Charon!?",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1230,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: You're Not Charon!?",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachHadesBeyondGates"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Zork Rocks Exploded",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 650,
+                        "y": 790,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Death: Zork Rocks Exploded",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": [
+                            "$canReachGUETech,zork_rocks,pouch_of_zorkmids",
+                            "$canReachGUETechBackwards,zork_rocks,pouch_of_zorkmids"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

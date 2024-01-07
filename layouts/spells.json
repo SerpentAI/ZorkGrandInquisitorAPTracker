@@ -1,0 +1,40 @@
+{
+    "spells_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "spell_glorf",
+                                "spell_golgatem",
+                                "spell_igram"
+                            ],
+                            [
+                                "spell_kendall",
+                                "spell_narwile",
+                                "spell_obidil"
+                            ],
+                            [
+                                "spell_rezrov",
+                                "spell_throck",
+                                "spell_yastard"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

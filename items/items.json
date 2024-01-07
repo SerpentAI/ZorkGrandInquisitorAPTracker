@@ -1,0 +1,278 @@
+[
+    {
+        "name": "Hammer",
+        "type": "toggle",
+        "img": "/images/items/hammer.png",
+        "codes": "hammer"
+    },
+    {
+        "name": "Hungus Lard",
+        "type": "toggle",
+        "img": "/images/items/hungus_lard.png",
+        "codes": "hungus_lard"
+    },
+    {
+        "name": "Lantern",
+        "type": "toggle",
+        "img": "/images/items/lantern.png",
+        "codes": "lantern"
+    },
+    {
+        "name": "Large Telegraph Hammer",
+        "type": "toggle",
+        "img": "/images/items/large_telegraph_hammer.png",
+        "codes": "large_telegraph_hammer"
+    },
+    {
+        "name": "Map",
+        "type": "toggle",
+        "img": "/images/items/map.png",
+        "codes": "map"
+    },
+    {
+        "name": "Mead Light",
+        "type": "toggle",
+        "img": "/images/items/mead_light.png",
+        "codes": "mead_light"
+    },
+    {
+        "name": "Old Scratch Card",
+        "type": "toggle",
+        "img": "/images/items/old_scratch_card.png",
+        "codes": "old_scratch_card"
+    },
+    {
+        "name": "Perma-Suck Machine",
+        "type": "toggle",
+        "img": "/images/items/perma_suck_machine.png",
+        "codes": "perma_suck_machine"
+    },
+    {
+        "name": "Plastic Six-Pack Holder",
+        "type": "toggle",
+        "img": "/images/items/plastic_six_pack_holder.png",
+        "codes": "plastic_six_pack_holder"
+    },
+    {
+        "name": "Prozork Tablet",
+        "type": "toggle",
+        "img": "/images/items/prozork_tablet.png",
+        "codes": "prozork_tablet"
+    },
+    {
+        "name": "Rope",
+        "type": "toggle",
+        "img": "/images/items/rope.png",
+        "codes": "rope"
+    },
+    {
+        "name": "Shovel",
+        "type": "toggle",
+        "img": "/images/items/shovel.png",
+        "codes": "shovel"
+    },
+    {
+        "name": "Snapdragon",
+        "type": "toggle",
+        "img": "/images/items/snapdragon.png",
+        "codes": "snapdragon"
+    },
+    {
+        "name": "Student ID",
+        "type": "toggle",
+        "img": "/images/items/student_id.png",
+        "codes": "student_id"
+    },
+    {
+        "name": "Subway Token",
+        "type": "toggle",
+        "img": "/images/items/subway_token.png",
+        "codes": "subway_token"
+    },
+    {
+        "name": "Sword",
+        "type": "toggle",
+        "img": "/images/items/sword.png",
+        "codes": "sword"
+    },
+    {
+        "name": "ZIMDOR Scroll",
+        "type": "toggle",
+        "img": "/images/items/zimdor_scroll.png",
+        "codes": "zimdor_scroll"
+    },
+    {
+        "name": "Zork Rocks",
+        "type": "toggle",
+        "img": "/images/items/zork_rocks.png",
+        "codes": "zork_rocks"
+    },
+    {
+        "name": "Pouch of Zorkmids",
+        "type": "toggle",
+        "img": "/images/items/pouch_of_zorkmids.png",
+        "codes": "pouch_of_zorkmids"
+    },
+    {
+        "name": "Blank Scroll Box Access",
+        "type": "toggle",
+        "img": "/images/items/blank_scroll_box_access.png",
+        "codes": "blank_scroll_box_access"
+    },
+    {
+        "name": "Spell: GLORF",
+        "type": "toggle",
+        "img": "/images/items/spell_glorf.png",
+        "codes": "spell_glorf"
+    },
+    {
+        "name": "Spell: GOLGATEM",
+        "type": "toggle",
+        "img": "/images/items/spell_golgatem.png",
+        "codes": "spell_golgatem"
+    },
+    {
+        "name": "Spell: IGRAM",
+        "type": "toggle",
+        "img": "/images/items/spell_igram.png",
+        "codes": "spell_igram"
+    },
+    {
+        "name": "Spell: KENDALL",
+        "type": "toggle",
+        "img": "/images/items/spell_kendall.png",
+        "codes": "spell_kendall"
+    },
+    {
+        "name": "Spell: NARWILE",
+        "type": "toggle",
+        "img": "/images/items/spell_narwile.png",
+        "codes": "spell_narwile"
+    },
+    {
+        "name": "Spell: OBIDIL",
+        "type": "toggle",
+        "img": "/images/items/spell_obidil.png",
+        "codes": "spell_obidil"
+    },
+    {
+        "name": "Spell: REZROV",
+        "type": "toggle",
+        "img": "/images/items/spell_rezrov.png",
+        "codes": "spell_rezrov"
+    },
+    {
+        "name": "Spell: THROCK",
+        "type": "toggle",
+        "img": "/images/items/spell_throck.png",
+        "codes": "spell_throck"
+    },
+    {
+        "name": "Spell: YASTARD",
+        "type": "toggle",
+        "img": "/images/items/spell_yastard.png",
+        "codes": "spell_yastard"
+    },
+    {
+        "name": "Totem: Brog",
+        "type": "toggle",
+        "img": "/images/items/totem_brog.png",
+        "codes": "totem_brog"
+    },
+    {
+        "name": "Brog's Time Tunnel Items",
+        "type": "toggle",
+        "img": "/images/items/time_tunnel.png",
+        "codes": "brogs_time_tunnel_items"
+    },
+    {
+        "name": "Totem: Griff",
+        "type": "toggle",
+        "img": "/images/items/totem_griff.png",
+        "codes": "totem_griff"
+    },
+    {
+        "name": "Griff's Time Tunnel Items",
+        "type": "toggle",
+        "img": "/images/items/time_tunnel.png",
+        "codes": "griffs_time_tunnel_items"
+    },
+    {
+        "name": "Totem: Lucy",
+        "type": "toggle",
+        "img": "/images/items/totem_lucy.png",
+        "codes": "totem_lucy"
+    },
+    {
+        "name": "Lucy's Time Tunnel Items",
+        "type": "toggle",
+        "img": "/images/items/time_tunnel.png",
+        "codes": "lucys_time_tunnel_items"
+    },
+    {
+        "name": "Subway Destination: Flood Control Dam #3",
+        "type": "toggle",
+        "img": "/images/items/subway_destination_flood_control_dam_3.png",
+        "codes": "subway_destination_flood_control_dam_3"
+    },
+    {
+        "name": "Subway Destination: Hades",
+        "type": "toggle",
+        "img": "/images/items/subway_destination_hades.png",
+        "codes": "subway_destination_hades"
+    },
+    {
+        "name": "Subway Destination: Monastery",
+        "type": "toggle",
+        "img": "/images/items/subway_destination_monastery.png",
+        "codes": "subway_destination_monastery"
+    },
+    {
+        "name": "Teleporter Destination: Dungeon Master's Lair",
+        "type": "toggle",
+        "img": "/images/items/teleporter_destination_dungeon_masters_lair.png",
+        "codes": "teleporter_destination_dungeon_masters_lair"
+    },
+    {
+        "name": "Teleporter Destination: GUE Tech",
+        "type": "toggle",
+        "img": "/images/items/teleporter_destination_gue_tech.png",
+        "codes": "teleporter_destination_gue_tech"
+    },
+    {
+        "name": "Teleporter Destination: Hades",
+        "type": "toggle",
+        "img": "/images/items/teleporter_destination_hades.png",
+        "codes": "teleporter_destination_hades"
+    },
+    {
+        "name": "Teleporter Destination: Monastery Station",
+        "type": "toggle",
+        "img": "/images/items/teleporter_destination_monastery.png",
+        "codes": "teleporter_destination_monastery"
+    },
+    {
+        "name": "Teleporter Destination: Spell Lab",
+        "type": "toggle",
+        "img": "/images/items/teleporter_destination_spell_lab.png",
+        "codes": "teleporter_destination_spell_lab"
+    },
+    {
+        "name": "Goal: Three Artifacts",
+        "type": "toggle",
+        "img": "/images/settings/goal_three_artifacts.png",
+        "codes": "goal_three_artifacts"
+    },
+    {
+        "name": "Setting: Deathsanity",
+        "type": "toggle",
+        "img": "/images/settings/setting_deathsanity.png",
+        "codes": "setting_deathsanity"
+    },
+    {
+        "name": "Setting: Early Rope and Lantern",
+        "type": "toggle",
+        "img": "/images/settings/setting_early_rope_and_lantern.png",
+        "codes": "setting_early_rope_and_lantern"
+    }
+]

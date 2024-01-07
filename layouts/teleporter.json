@@ -1,0 +1,34 @@
+{
+    "teleporter_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "85, 85",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "teleporter_destination_dungeon_masters_lair",
+                                "teleporter_destination_gue_tech",
+                                "teleporter_destination_hades"
+                            ],
+                            [
+                                "teleporter_destination_monastery",
+                                "teleporter_destination_spell_lab"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

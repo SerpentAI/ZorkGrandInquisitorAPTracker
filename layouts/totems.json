@@ -1,0 +1,37 @@
+{
+    "totems_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "totem_brog",
+                                "brogs_time_tunnel_items"
+                            ],
+                            [
+                                "totem_griff",
+                                "griffs_time_tunnel_items"
+                            ],
+                            [
+                                "totem_lucy",
+                                "lucys_time_tunnel_items"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
