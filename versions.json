@@ -3,7 +3,7 @@
         {
             "package_version": "0.1.0",
             "download_url": "https://github.com/SerpentAI/ZorkGrandInquisitorAPTracker/archive/refs/tags/0.1.0.zip",
-            "sha256": "",
+            "sha256": "4A407C48D6FA2D6662B23D32C4882C781BB87CFAF8351CCDE296E66DB4F04832",
             "changelog": [
                 "Initial Release",
                 "Items: Tracking support for progression items",
