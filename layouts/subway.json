@@ -11,18 +11,14 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_size": "174, 45",
+                        "item_size": "139, 36",
                         "item_margin": "2, 2",
                         "item_h_alignment": "center",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "subway_destination_flood_control_dam_3"
-                            ],
-                            [
-                                "subway_destination_hades"
-                            ],
-                            [
+                                "subway_destination_flood_control_dam_3",
+                                "subway_destination_hades",
                                 "subway_destination_monastery"
                             ]
                         ]

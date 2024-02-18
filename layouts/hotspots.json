@@ -1,0 +1,96 @@
+{
+    "hotspots_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "hotspot_666_mailbox",
+                                "hotspot_alpines_quandry_card_slots",
+                                "hotspot_blank_scroll_box",
+                                "hotspot_blinds",
+                                "hotspot_candy_machine_buttons",
+                                "hotspot_candy_machine_coin_slot",
+                                "hotspot_candy_machine_vacuum_slot",
+                                "hotspot_change_machine_slot",
+                                "hotspot_closet_door"
+                            ],
+                            [
+                                "hotspot_closing_the_time_tunnels_hammer_slot",
+                                "hotspot_closing_the_time_tunnels_lever",
+                                "hotspot_cooking_pot",
+                                "hotspot_dented_locker",
+                                "hotspot_dirt_mound",
+                                "hotspot_dock_winch",
+                                "hotspot_dragon_claw",
+                                "hotspot_dragon_nostrils",
+                                "hotspot_dungeon_masters_lair_entrance"
+                            ],
+                            [
+                                "hotspot_flood_control_buttons",
+                                "hotspot_flood_control_doors",
+                                "hotspot_frozen_treat_machine_coin_slot",
+                                "hotspot_frozen_treat_machine_doors",
+                                "hotspot_glass_case",
+                                "hotspot_grand_inquisitor_doll",
+                                "hotspot_gue_tech_door",
+                                "hotspot_gue_tech_grass",
+                                "hotspot_hades_phone_buttons"
+                            ],
+                            [
+                                "hotspot_hades_phone_receiver",
+                                "hotspot_harry",
+                                "hotspot_harrys_ashtray",
+                                "hotspot_harrys_bird_bath",
+                                "hotspot_in_magic_we_trust_door",
+                                "hotspot_jacks_door",
+                                "hotspot_loudspeaker_volume_buttons",
+                                "hotspot_mailbox_door",
+                                "hotspot_mailbox_flag"
+                            ],
+                            [
+                                "hotspot_mirror",
+                                "hotspot_monastery_vent",
+                                "hotspot_mossy_grate",
+                                "hotspot_port_foozle_past_tavern_door",
+                                "hotspot_purple_words",
+                                "hotspot_quelbee_hive",
+                                "hotspot_rope_bridge",
+                                "hotspot_skull_cage",
+                                "hotspot_snapdragon"
+                            ],
+                            [
+                                "hotspot_soda_machine_buttons",
+                                "hotspot_soda_machine_coin_slot",
+                                "hotspot_souvenir_coin_slot",
+                                "hotspot_spell_checker",
+                                "hotspot_spell_lab_chasm",
+                                "hotspot_spring_mushroom",
+                                "hotspot_student_id_machine",
+                                "hotspot_subway_token_slot",
+                                "hotspot_tavern_fly"
+                            ],
+                            [
+                                "hotspot_totemizer_switch",
+                                "hotspot_totemizer_wheels",
+                                "hotspot_well"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

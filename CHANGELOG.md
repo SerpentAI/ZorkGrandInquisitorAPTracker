@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+Fully remade to support the content update for the game
+
 ## 0.1.0
 
 Initial release

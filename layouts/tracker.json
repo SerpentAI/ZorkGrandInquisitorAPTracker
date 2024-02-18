@@ -69,11 +69,17 @@
                                 "v_alignment": "center",
                                 "key": "totems_layout"
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "dock": "right",
+                    "content": [
                         {
                             "type": "group",
                             "header": "Subway Destinations",
-                            "dock": "left",
+                            "dock": "top",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
@@ -85,13 +91,37 @@
                         {
                             "type": "group",
                             "header": "Teleporter Destinations",
-                            "dock": "left",
+                            "dock": "top",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
                                 "key": "teleporter_layout"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Totemizer Destinations",
+                            "dock": "top",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "totemizer_layout"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Hotspots",
+                            "dock": "top",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "hotspots_layout"
                             }
                         }
                     ]

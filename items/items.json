@@ -1,15 +1,411 @@
 [
     {
+        "name": "Brog's Flickering Torch",
+        "type": "toggle",
+        "img": "/images/items/brogs_flickering_torch.png",
+        "codes": "brogs_flickering_torch"
+    },
+    {
+        "name": "Brog's Grue Egg",
+        "type": "toggle",
+        "img": "/images/items/brogs_grue_egg.png",
+        "codes": "brogs_grue_egg"
+    },
+    {
+        "name": "Brog's Plank",
+        "type": "toggle",
+        "img": "/images/items/brogs_plank.png",
+        "codes": "brogs_plank"
+    },
+    {
+        "name": "Flatheadia Fudge",
+        "type": "toggle",
+        "img": "/images/items/flatheadia_fudge.png",
+        "codes": "flatheadia_fudge"
+    },
+    {
+        "name": "Griff's Air Pump",
+        "type": "toggle",
+        "img": "/images/items/griffs_air_pump.png",
+        "codes": "griffs_air_pump"
+    },
+    {
+        "name": "Griff's Dragon Tooth",
+        "type": "toggle",
+        "img": "/images/items/griffs_dragon_tooth.png",
+        "codes": "griffs_dragon_tooth"
+    },
+    {
+        "name": "Griff's Inflatable Raft",
+        "type": "toggle",
+        "img": "/images/items/griffs_inflatable_raft.png",
+        "codes": "griffs_inflatable_raft"
+    },
+    {
+        "name": "Griff's Inflatable Sea Captain",
+        "type": "toggle",
+        "img": "/images/items/griffs_inflatable_sea_captain.png",
+        "codes": "griffs_inflatable_sea_captain"
+    },
+    {
         "name": "Hammer",
         "type": "toggle",
         "img": "/images/items/hammer.png",
         "codes": "hammer"
     },
     {
+        "name": "Hotspot: 666 Mailbox",
+        "type": "toggle",
+        "img": "/images/items/hotspot_666_mailbox.png",
+        "codes": "hotspot_666_mailbox"
+    },
+    {
+        "name": "Hotspot: Alpine's Quandry Card Slots",
+        "type": "toggle",
+        "img": "/images/items/hotspot_alpines_quandry_card_slots.png",
+        "codes": "hotspot_alpines_quandry_card_slots"
+    },
+    {
+        "name": "Hotspot: Blank Scroll Box",
+        "type": "toggle",
+        "img": "/images/items/hotspot_blank_scroll_box.png",
+        "codes": "hotspot_blank_scroll_box"
+    },
+    {
+        "name": "Hotspot: Blinds",
+        "type": "toggle",
+        "img": "/images/items/hotspot_blinds.png",
+        "codes": "hotspot_blinds"
+    },
+    {
+        "name": "Hotspot: Candy Machine Buttons",
+        "type": "toggle",
+        "img": "/images/items/hotspot_candy_machine_buttons.png",
+        "codes": "hotspot_candy_machine_buttons"
+    },
+    {
+        "name": "Hotspot: Candy Machine Coin Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_candy_machine_coin_slot.png",
+        "codes": "hotspot_candy_machine_coin_slot"
+    },
+    {
+        "name": "Hotspot: Candy Machine Vacuum Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_candy_machine_vacuum_slot.png",
+        "codes": "hotspot_candy_machine_vacuum_slot"
+    },
+    {
+        "name": "Hotspot: Change Machine Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_change_machine_slot.png",
+        "codes": "hotspot_change_machine_slot"
+    },
+    {
+        "name": "Hotspot: Closet Door",
+        "type": "toggle",
+        "img": "/images/items/hotspot_closet_door.png",
+        "codes": "hotspot_closet_door"
+    },
+    {
+        "name": "Hotspot: Closing the Time Tunnels Hammer Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_closing_the_time_tunnels_hammer_slot.png",
+        "codes": "hotspot_closing_the_time_tunnels_hammer_slot"
+    },
+    {
+        "name": "Hotspot: Closing the Time Tunnels Lever",
+        "type": "toggle",
+        "img": "/images/items/hotspot_closing_the_time_tunnels_lever.png",
+        "codes": "hotspot_closing_the_time_tunnels_lever"
+    },
+    {
+        "name": "Hotspot: Cooking Pot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_cooking_pot.png",
+        "codes": "hotspot_cooking_pot"
+    },
+    {
+        "name": "Hotspot: Dented Locker",
+        "type": "toggle",
+        "img": "/images/items/hotspot_dented_locker.png",
+        "codes": "hotspot_dented_locker"
+    },
+    {
+        "name": "Hotspot: Dirt Mound",
+        "type": "toggle",
+        "img": "/images/items/hotspot_dirt_mound.png",
+        "codes": "hotspot_dirt_mound"
+    },
+    {
+        "name": "Hotspot: Dock Winch",
+        "type": "toggle",
+        "img": "/images/items/hotspot_dock_winch.png",
+        "codes": "hotspot_dock_winch"
+    },
+    {
+        "name": "Hotspot: Dragon Claw",
+        "type": "toggle",
+        "img": "/images/items/hotspot_dragon_claw.png",
+        "codes": "hotspot_dragon_claw"
+    },
+    {
+        "name": "Hotspot: Dragon Nostrils",
+        "type": "toggle",
+        "img": "/images/items/hotspot_dragon_nostrils.png",
+        "codes": "hotspot_dragon_nostrils"
+    },
+    {
+        "name": "Hotspot: Dungeon Master's Lair Entrance",
+        "type": "toggle",
+        "img": "/images/items/hotspot_dungeon_masters_lair_entrance.png",
+        "codes": "hotspot_dungeon_masters_lair_entrance"
+    },
+    {
+        "name": "Hotspot: Flood Control Buttons",
+        "type": "toggle",
+        "img": "/images/items/hotspot_flood_control_buttons.png",
+        "codes": "hotspot_flood_control_buttons"
+    },
+    {
+        "name": "Hotspot: Flood Control Doors",
+        "type": "toggle",
+        "img": "/images/items/hotspot_flood_control_doors.png",
+        "codes": "hotspot_flood_control_doors"
+    },
+    {
+        "name": "Hotspot: Frozen Treat Machine Coin Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_frozen_treat_machine_coin_slot.png",
+        "codes": "hotspot_frozen_treat_machine_coin_slot"
+    },
+    {
+        "name": "Hotspot: Frozen Treat Machine Doors",
+        "type": "toggle",
+        "img": "/images/items/hotspot_frozen_treat_machine_doors.png",
+        "codes": "hotspot_frozen_treat_machine_doors"
+    },
+    {
+        "name": "Hotspot: Glass Case",
+        "type": "toggle",
+        "img": "/images/items/hotspot_glass_case.png",
+        "codes": "hotspot_glass_case"
+    },
+    {
+        "name": "Hotspot: Grand Inquisitor Doll",
+        "type": "toggle",
+        "img": "/images/items/hotspot_grand_inquisitor_doll.png",
+        "codes": "hotspot_grand_inquisitor_doll"
+    },
+    {
+        "name": "Hotspot: GUE Tech Door",
+        "type": "toggle",
+        "img": "/images/items/hotspot_gue_tech_door.png",
+        "codes": "hotspot_gue_tech_door"
+    },
+    {
+        "name": "Hotspot: GUE Tech Grass",
+        "type": "toggle",
+        "img": "/images/items/hotspot_gue_tech_grass.png",
+        "codes": "hotspot_gue_tech_grass"
+    },
+    {
+        "name": "Hotspot: Hades Phone Buttons",
+        "type": "toggle",
+        "img": "/images/items/hotspot_hades_phone_buttons.png",
+        "codes": "hotspot_hades_phone_buttons"
+    },
+    {
+        "name": "Hotspot: Hades Phone Receiver",
+        "type": "toggle",
+        "img": "/images/items/hotspot_hades_phone_receiver.png",
+        "codes": "hotspot_hades_phone_receiver"
+    },
+    {
+        "name": "Hotspot: Harry",
+        "type": "toggle",
+        "img": "/images/items/hotspot_harry.png",
+        "codes": "hotspot_harry"
+    },
+    {
+        "name": "Hotspot: Harry's Ashtray",
+        "type": "toggle",
+        "img": "/images/items/hotspot_harrys_ashtray.png",
+        "codes": "hotspot_harrys_ashtray"
+    },
+    {
+        "name": "Hotspot: Harry's Bird Bath",
+        "type": "toggle",
+        "img": "/images/items/hotspot_harrys_bird_bath.png",
+        "codes": "hotspot_harrys_bird_bath"
+    },
+    {
+        "name": "Hotspot: In Magic We Trust Door",
+        "type": "toggle",
+        "img": "/images/items/hotspot_in_magic_we_trust_door.png",
+        "codes": "hotspot_in_magic_we_trust_door"
+    },
+    {
+        "name": "Hotspot: Jack's Door",
+        "type": "toggle",
+        "img": "/images/items/hotspot_jacks_door.png",
+        "codes": "hotspot_jacks_door"
+    },
+    {
+        "name": "Hotspot: Loudspeaker Volume Buttons",
+        "type": "toggle",
+        "img": "/images/items/hotspot_loudspeaker_volume_buttons.png",
+        "codes": "hotspot_loudspeaker_volume_buttons"
+    },
+    {
+        "name": "Hotspot: Mailbox Door",
+        "type": "toggle",
+        "img": "/images/items/hotspot_mailbox_door.png",
+        "codes": "hotspot_mailbox_door"
+    },
+    {
+        "name": "Hotspot: Mailbox Flag",
+        "type": "toggle",
+        "img": "/images/items/hotspot_mailbox_flag.png",
+        "codes": "hotspot_mailbox_flag"
+    },
+    {
+        "name": "Hotspot: Mirror",
+        "type": "toggle",
+        "img": "/images/items/hotspot_mirror.png",
+        "codes": "hotspot_mirror"
+    },
+    {
+        "name": "Hotspot: Monastery Vent",
+        "type": "toggle",
+        "img": "/images/items/hotspot_monastery_vent.png",
+        "codes": "hotspot_monastery_vent"
+    },
+    {
+        "name": "Hotspot: Mossy Grate",
+        "type": "toggle",
+        "img": "/images/items/hotspot_mossy_grate.png",
+        "codes": "hotspot_mossy_grate"
+    },
+    {
+        "name": "Hotspot: Port Foozle Past Tavern Door",
+        "type": "toggle",
+        "img": "/images/items/hotspot_port_foozle_past_tavern_door.png",
+        "codes": "hotspot_port_foozle_past_tavern_door"
+    },
+    {
+        "name": "Hotspot: Purple Words",
+        "type": "toggle",
+        "img": "/images/items/hotspot_purple_words.png",
+        "codes": "hotspot_purple_words"
+    },
+    {
+        "name": "Hotspot: Quelbee Hive",
+        "type": "toggle",
+        "img": "/images/items/hotspot_quelbee_hive.png",
+        "codes": "hotspot_quelbee_hive"
+    },
+    {
+        "name": "Hotspot: Rope Bridge",
+        "type": "toggle",
+        "img": "/images/items/hotspot_rope_bridge.png",
+        "codes": "hotspot_rope_bridge"
+    },
+    {
+        "name": "Hotspot: Skull Cage",
+        "type": "toggle",
+        "img": "/images/items/hotspot_skull_cage.png",
+        "codes": "hotspot_skull_cage"
+    },
+    {
+        "name": "Hotspot: Snapdragon",
+        "type": "toggle",
+        "img": "/images/items/hotspot_snapdragon.png",
+        "codes": "hotspot_snapdragon"
+    },
+    {
+        "name": "Hotspot: Soda Machine Buttons",
+        "type": "toggle",
+        "img": "/images/items/hotspot_soda_machine_buttons.png",
+        "codes": "hotspot_soda_machine_buttons"
+    },
+    {
+        "name": "Hotspot: Soda Machine Coin Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_soda_machine_coin_slot.png",
+        "codes": "hotspot_soda_machine_coin_slot"
+    },
+    {
+        "name": "Hotspot: Souvenir Coin Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_souvenir_coin_slot.png",
+        "codes": "hotspot_souvenir_coin_slot"
+    },
+    {
+        "name": "Hotspot: Spell Checker",
+        "type": "toggle",
+        "img": "/images/items/hotspot_spell_checker.png",
+        "codes": "hotspot_spell_checker"
+    },
+    {
+        "name": "Hotspot: Spell Lab Chasm",
+        "type": "toggle",
+        "img": "/images/items/hotspot_spell_lab_chasm.png",
+        "codes": "hotspot_spell_lab_chasm"
+    },
+    {
+        "name": "Hotspot: Spring Mushroom",
+        "type": "toggle",
+        "img": "/images/items/hotspot_spring_mushroom.png",
+        "codes": "hotspot_spring_mushroom"
+    },
+    {
+        "name": "Hotspot: Student ID Machine",
+        "type": "toggle",
+        "img": "/images/items/hotspot_student_id_machine.png",
+        "codes": "hotspot_student_id_machine"
+    },
+    {
+        "name": "Hotspot: Subway Token Slot",
+        "type": "toggle",
+        "img": "/images/items/hotspot_subway_token_slot.png",
+        "codes": "hotspot_subway_token_slot"
+    },
+    {
+        "name": "Hotspot: Tavern Fly",
+        "type": "toggle",
+        "img": "/images/items/hotspot_tavern_fly.png",
+        "codes": "hotspot_tavern_fly"
+    },
+    {
+        "name": "Hotspot: Totemizer Switch",
+        "type": "toggle",
+        "img": "/images/items/hotspot_totemizer_switch.png",
+        "codes": "hotspot_totemizer_switch"
+    },
+    {
+        "name": "Hotspot: Totemizer Wheels",
+        "type": "toggle",
+        "img": "/images/items/hotspot_totemizer_wheels.png",
+        "codes": "hotspot_totemizer_wheels"
+    },
+    {
+        "name": "Hotspot: Well",
+        "type": "toggle",
+        "img": "/images/items/hotspot_well.png",
+        "codes": "hotspot_well"
+    },
+    {
         "name": "Hungus Lard",
         "type": "toggle",
         "img": "/images/items/hungus_lard.png",
         "codes": "hungus_lard"
+    },
+    {
+        "name": "Jar of Hotbugs",
+        "type": "toggle",
+        "img": "/images/items/jar_of_hotbugs.png",
+        "codes": "jar_of_hotbugs"
     },
     {
         "name": "Lantern",
@@ -24,6 +420,30 @@
         "codes": "large_telegraph_hammer"
     },
     {
+        "name": "Lucy's Playing Card: 1 Pip",
+        "type": "toggle",
+        "img": "/images/items/lucys_playing_card_1_pip.png",
+        "codes": "lucys_playing_card_1_pip"
+    },
+    {
+        "name": "Lucy's Playing Card: 2 Pips",
+        "type": "toggle",
+        "img": "/images/items/lucys_playing_card_2_pips.png",
+        "codes": "lucys_playing_card_2_pips"
+    },
+    {
+        "name": "Lucy's Playing Card: 3 Pips",
+        "type": "toggle",
+        "img": "/images/items/lucys_playing_card_3_pips.png",
+        "codes": "lucys_playing_card_3_pips"
+    },
+    {
+        "name": "Lucy's Playing Card: 4 Pips",
+        "type": "toggle",
+        "img": "/images/items/lucys_playing_card_4_pips.png",
+        "codes": "lucys_playing_card_4_pips"
+    },
+    {
         "name": "Map",
         "type": "toggle",
         "img": "/images/items/map.png",
@@ -34,6 +454,18 @@
         "type": "toggle",
         "img": "/images/items/mead_light.png",
         "codes": "mead_light"
+    },
+    {
+        "name": "Moss of Mareilon",
+        "type": "toggle",
+        "img": "/images/items/moss_of_mareilon.png",
+        "codes": "moss_of_mareilon"
+    },
+    {
+        "name": "Mug",
+        "type": "toggle",
+        "img": "/images/items/mug.png",
+        "codes": "mug"
     },
     {
         "name": "Old Scratch Card",
@@ -54,16 +486,40 @@
         "codes": "plastic_six_pack_holder"
     },
     {
+        "name": "Pouch of Zorkmids",
+        "type": "toggle",
+        "img": "/images/items/pouch_of_zorkmids.png",
+        "codes": "pouch_of_zorkmids"
+    },
+    {
         "name": "Prozork Tablet",
         "type": "toggle",
         "img": "/images/items/prozork_tablet.png",
         "codes": "prozork_tablet"
     },
     {
+        "name": "Quelbee Honeycomb",
+        "type": "toggle",
+        "img": "/images/items/quelbee_honeycomb.png",
+        "codes": "quelbee_honeycomb"
+    },
+    {
         "name": "Rope",
         "type": "toggle",
         "img": "/images/items/rope.png",
         "codes": "rope"
+    },
+    {
+        "name": "Scroll Fragment - ANS",
+        "type": "toggle",
+        "img": "/images/items/scroll_fragment_ans.png",
+        "codes": "scroll_fragment_ans"
+    },
+    {
+        "name": "Scroll Fragment - GIV",
+        "type": "toggle",
+        "img": "/images/items/scroll_fragment_giv.png",
+        "codes": "scroll_fragment_giv"
     },
     {
         "name": "Shovel",
@@ -76,48 +532,6 @@
         "type": "toggle",
         "img": "/images/items/snapdragon.png",
         "codes": "snapdragon"
-    },
-    {
-        "name": "Student ID",
-        "type": "toggle",
-        "img": "/images/items/student_id.png",
-        "codes": "student_id"
-    },
-    {
-        "name": "Subway Token",
-        "type": "toggle",
-        "img": "/images/items/subway_token.png",
-        "codes": "subway_token"
-    },
-    {
-        "name": "Sword",
-        "type": "toggle",
-        "img": "/images/items/sword.png",
-        "codes": "sword"
-    },
-    {
-        "name": "ZIMDOR Scroll",
-        "type": "toggle",
-        "img": "/images/items/zimdor_scroll.png",
-        "codes": "zimdor_scroll"
-    },
-    {
-        "name": "Zork Rocks",
-        "type": "toggle",
-        "img": "/images/items/zork_rocks.png",
-        "codes": "zork_rocks"
-    },
-    {
-        "name": "Pouch of Zorkmids",
-        "type": "toggle",
-        "img": "/images/items/pouch_of_zorkmids.png",
-        "codes": "pouch_of_zorkmids"
-    },
-    {
-        "name": "Blank Scroll Box Access",
-        "type": "toggle",
-        "img": "/images/items/blank_scroll_box_access.png",
-        "codes": "blank_scroll_box_access"
     },
     {
         "name": "Spell: GLORF",
@@ -150,12 +564,6 @@
         "codes": "spell_narwile"
     },
     {
-        "name": "Spell: OBIDIL",
-        "type": "toggle",
-        "img": "/images/items/spell_obidil.png",
-        "codes": "spell_obidil"
-    },
-    {
         "name": "Spell: REZROV",
         "type": "toggle",
         "img": "/images/items/spell_rezrov.png",
@@ -168,46 +576,10 @@
         "codes": "spell_throck"
     },
     {
-        "name": "Spell: YASTARD",
+        "name": "Student ID",
         "type": "toggle",
-        "img": "/images/items/spell_yastard.png",
-        "codes": "spell_yastard"
-    },
-    {
-        "name": "Totem: Brog",
-        "type": "toggle",
-        "img": "/images/items/totem_brog.png",
-        "codes": "totem_brog"
-    },
-    {
-        "name": "Brog's Time Tunnel Items",
-        "type": "toggle",
-        "img": "/images/items/time_tunnel.png",
-        "codes": "brogs_time_tunnel_items"
-    },
-    {
-        "name": "Totem: Griff",
-        "type": "toggle",
-        "img": "/images/items/totem_griff.png",
-        "codes": "totem_griff"
-    },
-    {
-        "name": "Griff's Time Tunnel Items",
-        "type": "toggle",
-        "img": "/images/items/time_tunnel.png",
-        "codes": "griffs_time_tunnel_items"
-    },
-    {
-        "name": "Totem: Lucy",
-        "type": "toggle",
-        "img": "/images/items/totem_lucy.png",
-        "codes": "totem_lucy"
-    },
-    {
-        "name": "Lucy's Time Tunnel Items",
-        "type": "toggle",
-        "img": "/images/items/time_tunnel.png",
-        "codes": "lucys_time_tunnel_items"
+        "img": "/images/items/student_id.png",
+        "codes": "student_id"
     },
     {
         "name": "Subway Destination: Flood Control Dam #3",
@@ -226,6 +598,18 @@
         "type": "toggle",
         "img": "/images/items/subway_destination_monastery.png",
         "codes": "subway_destination_monastery"
+    },
+    {
+        "name": "Subway Token",
+        "type": "toggle",
+        "img": "/images/items/subway_token.png",
+        "codes": "subway_token"
+    },
+    {
+        "name": "Sword",
+        "type": "toggle",
+        "img": "/images/items/sword.png",
+        "codes": "sword"
     },
     {
         "name": "Teleporter Destination: Dungeon Master's Lair",
@@ -258,6 +642,48 @@
         "codes": "teleporter_destination_spell_lab"
     },
     {
+        "name": "Totem: Brog",
+        "type": "toggle",
+        "img": "/images/items/totem_brog.png",
+        "codes": "totem_brog"
+    },
+    {
+        "name": "Totem: Griff",
+        "type": "toggle",
+        "img": "/images/items/totem_griff.png",
+        "codes": "totem_griff"
+    },
+    {
+        "name": "Totem: Lucy",
+        "type": "toggle",
+        "img": "/images/items/totem_lucy.png",
+        "codes": "totem_lucy"
+    },
+    {
+        "name": "Totemizer Destination: Hall of Inquisition",
+        "type": "toggle",
+        "img": "/images/items/totemizer_destination_hall_of_inquisition.png",
+        "codes": "totemizer_destination_hall_of_inquisition"
+    },
+    {
+        "name": "Totemizer Destination: Straight to Hell",
+        "type": "toggle",
+        "img": "/images/items/totemizer_destination_straight_to_hell.png",
+        "codes": "totemizer_destination_straight_to_hell"
+    },
+    {
+        "name": "ZIMDOR Scroll",
+        "type": "toggle",
+        "img": "/images/items/zimdor_scroll.png",
+        "codes": "zimdor_scroll"
+    },
+    {
+        "name": "Zork Rocks",
+        "type": "toggle",
+        "img": "/images/items/zork_rocks.png",
+        "codes": "zork_rocks"
+    },
+    {
         "name": "Goal: Three Artifacts",
         "type": "toggle",
         "img": "/images/settings/goal_three_artifacts.png",
@@ -270,9 +696,9 @@
         "codes": "setting_deathsanity"
     },
     {
-        "name": "Setting: Early Rope and Lantern",
+        "name": "Setting: Quick Port Foozle",
         "type": "toggle",
-        "img": "/images/settings/setting_early_rope_and_lantern.png",
-        "codes": "setting_early_rope_and_lantern"
+        "img": "/images/settings/setting_quick_port_foozle.png",
+        "codes": "setting_quick_port_foozle"
     }
 ]

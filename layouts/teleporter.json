@@ -19,9 +19,7 @@
                             [
                                 "teleporter_destination_dungeon_masters_lair",
                                 "teleporter_destination_gue_tech",
-                                "teleporter_destination_hades"
-                            ],
-                            [
+                                "teleporter_destination_hades",
                                 "teleporter_destination_monastery",
                                 "teleporter_destination_spell_lab"
                             ]

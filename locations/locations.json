@@ -3,21 +3,40 @@
         "name": "Zork Grand Inquisitor",
         "children": [
             {
-                "name": "Arrest the Vandal!",
+                "name": "Alarm System is Down",
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 824,
-                        "y": 240,
+                        "x": 560,
+                        "y": 760,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Arrest the Vandal!",
+                        "name": "Read the flyer on the bulletin board inside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachPortFoozleJacksShop"]
+                        "access_rules": ["$canReachGUETech"]
+                    }
+                ]
+            },
+            {
+                "name": "Arrest the Vandal!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 764,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hide in the barrel after setting the grand inquisitor doll on fire in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["lantern,hotspot_jacks_door,hotspot_grand_inquisitor_doll"]
                     }
                 ]
             },
@@ -26,20 +45,55 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 650,
-                        "y": 690,
+                        "x": 634,
+                        "y": 660,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Artifacts, Explained",
+                        "name": "Activate the 3 artifact paintings in the GUE Tech hallways.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETechHallway", 
-                            "$canReachGUETechHallwayBackwards"
-                        ]
+                        "access_rules": ["$canReachGUETechHallway"]
+                    }
+                ]
+            },
+            {
+                "name": "A Big, Fat, SASSY 2-Headed Monster",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1080,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast OBIDIL on the two-headed monster in Hades.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHades,$canObtainObidil"]
+                    }
+                ]
+            },
+            {
+                "name": "A Letter from the White House",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1110,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Collect the letter you mailed from the White House at the 666 mailbox in Hades.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHades,$canMailLetter,hotspot_666_mailbox"]
                     }
                 ]
             },
@@ -48,7 +102,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 620,
+                        "x": 590,
                         "y": 760,
                         "size": 24,
                         "border_thickness": 2
@@ -56,12 +110,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "A Smallway",
+                        "name": "Cast IGRAM on the INFINITE purple word before the infinite hallway inside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETech,spell_igram", 
-                            "$canReachGUETechBackwards,spell_igram"
-                        ]
+                        "access_rules": ["$canReachGUETech,spell_igram,hotspot_purple_words"]
                     }
                 ]
             },
@@ -70,7 +121,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 864,
+                        "x": 820,
                         "y": 550,
                         "size": 24,
                         "border_thickness": 2
@@ -78,9 +129,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Beautiful, That's Plenty!",
+                        "name": "Cast THROCK on the mossy grate at the Flood Control Dam #3 station.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachSubwayFloodControlDam,spell_throck"]
+                        "access_rules": ["$canReachSubwayFloodControlDam,spell_throck,hotspot_mossy_grate"]
                     }
                 ]
             },
@@ -89,20 +140,93 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 710,
-                        "y": 690,
+                        "x": 664,
+                        "y": 660,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "BEBURTT, Demystified",
+                        "name": "Cast KENDALL while reading the Better Spell Manufacturing in Under 10 Minutes book inside the dunce locker in the GUE Tech hallway.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETechHallway,pouch_of_zorkmids,spell_kendall",
-                            "$canReachGUETechHallwayBackwards,pouch_of_zorkmids,spell_kendall"
-                        ]
+                        "access_rules": ["$canOpenLockers,$canReachGUETechHallway,spell_kendall"]
+                    }
+                ]
+            },
+            {
+                "name": "Better Spell Manufacturing in Under 10 Minutes",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 694,
+                        "y": 660,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book inside the dunce locker in the GUE Tech hallway.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canOpenLockers,$canReachGUETechHallway"]
+                    }
+                ]
+            },
+            {
+                "name": "Boing, Boing, Boing",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 160,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Place the snapdragon on the spring mushroom and hit it with the hammer behind the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,snapdragon,hotspot_spring_mushroom,hammer"]
+                    }
+                ]
+            },
+            {
+                "name": "Bonk!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 190,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hit the snapdragon with the hammer in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,hammer,hotspot_snapdragon"]
+                    }
+                ]
+            },
+            {
+                "name": "Brave Souls Wanted",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 402,
+                        "y": 966,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Look at the advertisement for old scratch in the Crossroads station.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayCrossroads","$canReachSubwayAlternate"]
                     }
                 ]
             },
@@ -119,14 +243,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "Brog Do Good!",
+                        "name": "Throw a boiled grue egg at the stalactites in the White House basement.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_time_tunnel_items"]
+                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_grue_egg,hotspot_cooking_pot,brogs_flickering_torch"]
                     }
                 ]
             },
             {
-                "name": "Brog Much Better at This Game",
+                "name": "Brog Eat Rocks",
                 "map_locations": [
                     {
                         "map": "map",
@@ -138,9 +262,104 @@
                 ],
                 "sections": [
                     {
-                        "name": "Brog Much Better at This Game",
+                        "name": "Eat a rock in the White House basement.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_time_tunnel_items"]
+                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_flickering_torch"]
+                    }
+                ]
+            },
+            {
+                "name": "Brog Know Dumb. That Dumb",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1002,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Throw a grue egg at the stalactites in the White House basement.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_flickering_torch,brogs_grue_egg"]
+                    }
+                ]
+            },
+            {
+                "name": "Brog Much Better at This Game",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1032,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Smash the skull cage with the plank in the White House basement.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_brog,brogs_grue_egg,hotspot_cooking_pot,brogs_flickering_torch,brogs_plank,hotspot_skull_cage"]
+                    }
+                ]
+            },
+            {
+                "name": "Castle Watching: A Field Guide",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 220,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
+                    }
+                ]
+            },
+            {
+                "name": "Cave's Notes",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 724,
+                        "y": 660,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book inside the dunce locker in the GUE Tech hallway.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canOpenLockers,$canReachGUETechHallway"]
+                    }
+                ]
+            },
+            {
+                "name": "Closing the Time Tunnels",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 980,
+                        "y": 1058,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the display at the Monastery Exhibit.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonasteryExhibit"]
                     }
                 ]
             },
@@ -149,7 +368,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 680,
+                        "x": 634,
                         "y": 690,
                         "size": 24,
                         "border_thickness": 2
@@ -157,12 +376,123 @@
                 ],
                 "sections": [
                     {
-                        "name": "Crisis Averted",
+                        "name": "Stash the activated zork rocks in the dented locker in the GUE Tech hallway.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETech,$canReachGUETechHallway,zork_rocks,pouch_of_zorkmids",
-                            "$canReachGUETechBackwards,$canReachGUETechHallway,zork_rocks,pouch_of_zorkmids"
-                        ]
+                        "access_rules": ["$canActivateZorkRocks,$canReachGUETechHallway,hotspot_dented_locker"]
+                    }
+                ]
+            },
+            {
+                "name": "Cut That Out You Little Creep!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 794,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on the door in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Denied by the Lake Monster",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 250,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast GOLGATEM on the lake when looking at the walking castle inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,hotspot_blinds,spell_golgatem"]
+                    }
+                ]
+            },
+            {
+                "name": "Desperately Seeking Tutor",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 620,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the flyer on the bulletin board inside GUE Tech.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachGUETech"]
+                    }
+                ]
+            },
+            {
+                "name": "Don't Even Start With Us, Sparky",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1140,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Attack the two-headed monster with the sword in Hades.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHades,sword"]
+                    }
+                ]
+            },
+            {
+                "name": "Doooooown",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1062,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lower the mailbox flag as Griff outside the White House.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_griff,hotspot_mailbox_flag"]
+                    }
+                ]
+            },
+            {
+                "name": "Down",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1092,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lower the mailbox flag as Lucy outside the White House.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_lucy,hotspot_mailbox_flag"]
                     }
                 ]
             },
@@ -171,7 +501,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1200,
+                        "x": 1170,
                         "y": 530,
                         "size": 24,
                         "border_thickness": 2
@@ -179,7 +509,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Dragon Archipelago Time Tunnel",
+                        "name": "Cast NARWILE on the time tunnel beyond the gates in Hades.",
                         "visibility_rules": [],
                         "access_rules": ["$canReachHadesBeyondGates,spell_narwile"]
                     }
@@ -190,7 +520,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 770,
+                        "x": 650,
                         "y": 760,
                         "size": 24,
                         "border_thickness": 2
@@ -198,12 +528,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Dunce Locker",
+                        "name": "Open the locker by purchasing item #11 from the vending machine inside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETech,pouch_of_zorkmids",
-                            "$canReachGUETechBackwards,pouch_of_zorkmids"
-                        ]
+                        "access_rules": ["$canReachGUETech,hotspot_candy_machine_buttons,hotspot_candy_machine_coin_slot,pouch_of_zorkmids"]
+                    }
+                ]
+            },
+            {
+                "name": "Eggplants",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 280,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the eggplants in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair"]
                     }
                 ]
             },
@@ -220,9 +566,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Elsewhere",
+                        "name": "Reach the well outside Port Foozle.",
                         "visibility_rules": [],
                         "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "Emergency Magicatronic Message",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 664,
+                        "y": 690,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the Belboz painting in the GUE Tech hallway.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachGUETech"]
                     }
                 ]
             },
@@ -239,12 +604,107 @@
                 ],
                 "sections": [
                     {
-                        "name": "Enjoy Your Trip!",
+                        "name": "Cast KENDALL on the subway map in the Crossroads station.",
                         "visibility_rules": [],
                         "access_rules": [
                             "$canReachSubwayCrossroads,spell_kendall",
                             "$canReachSubwayAlternate,spell_kendall"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Fat Lot of Good That'll Do Ya",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 960,
+                        "y": 720,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast IGRAM on the invisible bridge guard at the Spell Lab.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLabBridge,spell_igram"]
+                    }
+                ]
+            },
+            {
+                "name": "Fire! Fire!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 824,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Set the grand inquisitor doll on fire in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["lantern,hotspot_jacks_door,hotspot_grand_inquisitor_doll"]
+                    }
+                ]
+            },
+            {
+                "name": "Flood Control Dam #3: The Not Remotely Boring Tale",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 850,
+                        "y": 550,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Look at the book at the Flood Control Dam #3 station.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayFloodControlDam"]
+                    }
+                ]
+            },
+            {
+                "name": "Flying Snapdragon",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 310,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast THROCK on the spring mushroom, place the snapdragon and hit the mushroom with the hammer in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,spell_throck,snapdragon,hotspot_spring_mushroom,hammer"]
+                    }
+                ]
+            },
+            {
+                "name": "Frobruary 3 - Undergroundhog Day",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 340,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the diary on the bed inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
                     }
                 ]
             },
@@ -261,12 +721,47 @@
                 ],
                 "sections": [
                     {
-                        "name": "Getting Some Change",
+                        "name": "Use the 500 zorkmid bill on the change machine inside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETech,old_scratch_card",
-                            "$canReachGUETechBackwards,old_scratch_card"
-                        ]
+                        "access_rules": ["$canReachGUETech,old_scratch_card,hotspot_change_machine_slot"]
+                    }
+                ]
+            },
+            {
+                "name": "GO AWAY!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 854,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on the window in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "GUE Tech Dean's List",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 710,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the flyer on the bulletin board inside GUE Tech.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachGUETech"]
                     }
                 ]
             },
@@ -275,7 +770,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 590,
+                        "x": 740,
                         "y": 760,
                         "size": 24,
                         "border_thickness": 2
@@ -283,12 +778,47 @@
                 ],
                 "sections": [
                     {
-                        "name": "GUE Tech Entrance Exam",
+                        "name": "Solve the entrance exam outside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETech",
-                            "$canReachGUETechBackwards"
-                        ]
+                        "access_rules": ["$canReachGUETech"]
+                    }
+                ]
+            },
+            {
+                "name": "GUE Tech Health Memo",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 770,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the flyer on the bulletin board inside GUE Tech.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachGUETech"]
+                    }
+                ]
+            },
+            {
+                "name": "GUE Tech Magemeisters",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 800,
+                        "y": 760,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the flyer on the bulletin board inside GUE Tech.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachGUETech"]
                     }
                 ]
             },
@@ -297,7 +827,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1140,
+                        "x": 1200,
                         "y": 530,
                         "size": 24,
                         "border_thickness": 2
@@ -305,9 +835,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Have a Hell of a Day!",
+                        "name": "Answer all the questions correctly on the phone in Hades. Solution: 82895 or KENDALL + *",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachHadesShore"]
+                        "access_rules": ["$canReachHadesShore,hotspot_hades_phone_receiver,hotspot_hades_phone_buttons"]
+                    }
+                ]
+            },
+            {
+                "name": "Hello, This is Shona from Gurth Publishing",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 370,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Listen to the message on the answering machine inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
                     }
                 ]
             },
@@ -316,17 +865,17 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 764,
-                        "y": 240,
+                        "x": 884,
+                        "y": 210,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Help... Me. Can't... Breathe",
+                        "name": "Activate the dock winch with the plastic six-pack holder on the hook in Port Foozle.",
                         "visibility_rules": [],
-                        "access_rules": ["plastic_six_pack_holder"]
+                        "access_rules": ["hotspot_dock_winch,plastic_six_pack_holder"]
                     }
                 ]
             },
@@ -335,7 +884,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 650,
+                        "x": 830,
                         "y": 760,
                         "size": 24,
                         "border_thickness": 2
@@ -343,12 +892,106 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hey, Free Dirt!",
+                        "name": "Dig in the dirt pile with the shovel outside of GUE Tech.",
                         "visibility_rules": [],
                         "access_rules": [
-                            "$canReachGUETech,shovel",
-                            "$canReachGUETechBackwards,shovel"
+                            "$canReachGUETechOutside,shovel,hotspot_dirt_mound"
                         ]
+                    }
+                ]
+            },
+            {
+                "name": "Hi, My Name is Doug",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 400,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Listen to the message on the answering machine inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
+                    }
+                ]
+            },
+            {
+                "name": "Hmmm. Informative. Yet Deeply Disturbing",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 980,
+                        "y": 1028,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Look at the infographic on the wall at the Monastery.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonastery"]
+                    }
+                ]
+            },
+            {
+                "name": "Hold on for an Important Message",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 430,
+                        "y": 580,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Listen to the message on the answering machine inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
+                    }
+                ]
+            },
+            {
+                "name": "How to Hypnotize Yourself",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1205,
+                        "y": 700,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book in the Hades station.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHadesShore"]
+                    }
+                ]
+            },
+            {
+                "name": "How to Win at Double Fanucci",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 694,
+                        "y": 690,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book inside locker #8 in the GUE Tech hallway.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canOpenLockers,$canReachGUETechHallway"]
                     }
                 ]
             },
@@ -357,41 +1000,41 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1020,
-                        "y": 750,
+                        "x": 990,
+                        "y": 720,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Imbue BEBURTT",
+                        "name": "Create a BEBURTT scroll by using the machines in the Spell Lab and running it through the spell checker. Solution: O M R I T",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachSpellLab,blank_scroll_box_access"]
+                        "access_rules": ["$canObtainBeburtt"]
+                    }
+                ]
+            },
+            {
+                "name": "I'm Completely Nude",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 914,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on the door in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": []
                     }
                 ]
             },
             {
                 "name": "Into the Foliage",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 164,
-                        "y": 880,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Into the Foliage",
-                        "visibility_rules": [],
-                        "access_rules": ["$canReachCrossroads,sword"]
-                    }
-                ]
-            },
-            {
-                "name": "In Case of Adventure, Break Glass!",
                 "map_locations": [
                     {
                         "map": "map",
@@ -403,14 +1046,33 @@
                 ],
                 "sections": [
                     {
-                        "name": "In Case of Adventure, Break Glass!",
+                        "name": "Use the sword on the foliage blocking the door at the Crossroads.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachCrossroads,hammer"]
+                        "access_rules": ["$canReachCrossroads,sword,hotspot_dungeon_masters_lair_entrance"]
                     }
                 ]
             },
             {
-                "name": "In Magic We Trust",
+                "name": "Invisible Flowers",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 164,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast IGRAM on the umbrella flowers at the Crossroads.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachCrossroads,spell_igram"]
+                    }
+                ]
+            },
+            {
+                "name": "In Case of Adventure, Break Glass!",
                 "map_locations": [
                     {
                         "map": "map",
@@ -422,9 +1084,85 @@
                 ],
                 "sections": [
                     {
-                        "name": "In Magic We Trust",
+                        "name": "Break the glass case with the hammer at the Crossroads.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachCrossroads,spell_rezrov"]
+                        "access_rules": ["$canReachCrossroads,hammer,hotspot_glass_case"]
+                    }
+                ]
+            },
+            {
+                "name": "In Magic We Trust",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 224,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast REZROV on the door at the Crossroads.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachCrossroads,spell_rezrov,hotspot_in_magic_we_trust_door"]
+                    }
+                ]
+            },
+            {
+                "name": "It's One of Those Adventurers Again...",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 944,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Look at the door in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "I Don't Think You Would've Wanted That to Work Anyway",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 160,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast THROCK on the snapdragon in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,spell_throck,hotspot_snapdragon"]
+                    }
+                ]
+            },
+            {
+                "name": "I Don't Want No Trouble!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 974,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on the door in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": []
                     }
                 ]
             },
@@ -441,9 +1179,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "I Hope You Can Climb Up There With All This Junk",
+                        "name": "Throw your sword on a noose inside the vent at the Monastery station.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachSubwayMonastery,spell_glorf,sword"]
+                        "access_rules": ["$canReachSubwayMonastery,spell_glorf,sword,hotspot_monastery_vent"]
                     }
                 ]
             },
@@ -452,17 +1190,55 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 990,
-                        "y": 750,
+                        "x": 1020,
+                        "y": 720,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "I Like Your Style!",
+                        "name": "Cast GOLGATEM over the Spell Lab chasm.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachSubwayFloodControlDam,spell_rezrov,$canReachSpellLabBridge,sword,spell_golgatem"]
+                        "access_rules": ["$canDestroyDam,$canReachSpellLabBridge,sword,hotspot_rope_bridge,spell_golgatem,hotspot_spell_lab_chasm"]
+                    }
+                ]
+            },
+            {
+                "name": "I Spit on Your Filthy Coinage",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1050,
+                        "y": 720,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Try to bribe the invisible bridge guard at the Spell Lab with a zorkmid.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLabBridge,pouch_of_zorkmids"]
+                    }
+                ]
+            },
+            {
+                "name": "Lit Sunflowers",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 190,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast THROCK on the sunflowers in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,spell_throck"]
                     }
                 ]
             },
@@ -479,9 +1255,104 @@
                 ],
                 "sections": [
                     {
-                        "name": "Magic Forever!",
+                        "name": "Go down the well after acquiring Dalboz outside Port Foozle.",
                         "visibility_rules": [],
-                        "access_rules": ["rope,lantern"]
+                        "access_rules": ["$canReachPortFoozleJacksShop,rope,hotspot_well"]
+                    }
+                ]
+            },
+            {
+                "name": "Mailed it to Hell",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1122,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Mail the GLORF scroll with either Griff or Lucy outside the White House.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,$canMailLetter"]
+                    }
+                ]
+            },
+            {
+                "name": "Make Love, Not War",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1230,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Attack Charon with the sword in Hades.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHadesShore,hotspot_hades_phone_buttons,hotspot_hades_phone_receiver,sword"]
+                    }
+                ]
+            },
+            {
+                "name": "Mead Light?",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1004,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on Jack's door with the mead light in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["mead_light,hotspot_jacks_door"]
+                    }
+                ]
+            },
+            {
+                "name": "Mike's Pants",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 560,
+                        "y": 790,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the flyer on the bulletin board inside GUE Tech.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachGUETech"]
+                    }
+                ]
+            },
+            {
+                "name": "Mushroom, Hammered",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 220,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hit the spring mushroom with the hammer behind the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,hotspot_spring_mushroom,hammer"]
                     }
                 ]
             },
@@ -490,7 +1361,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 894,
+                        "x": 880,
                         "y": 550,
                         "size": 24,
                         "border_thickness": 2
@@ -498,9 +1369,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "300 Year Old National Treasure",
+                        "name": "Destroy Flood Control Dam #3 by casting REZROV on the closed floodgate and then closing all floodgates.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachSubwayFloodControlDam,spell_rezrov"]
+                        "access_rules": ["$canReachSubwayFloodControlDam,spell_rezrov,hotspot_flood_control_doors,hotspot_flood_control_buttons"]
+                    }
+                ]
+            },
+            {
+                "name": "Natural and Supernatural Creatures of Quendor",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 250,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
                     }
                 ]
             },
@@ -509,20 +1399,17 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 710,
-                        "y": 760,
+                        "x": 590,
+                        "y": 790,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "NOOOOOOOOOOOOO!",
+                        "name": "Open the locker by purchasing item #8 from the vending machine inside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETech,pouch_of_zorkmids",
-                            "$canReachGUETechBackwards,pouch_of_zorkmids"
-                        ]
+                        "access_rules": ["$canReachGUETech,hotspot_candy_machine_buttons,hotspot_candy_machine_coin_slot,pouch_of_zorkmids"]
                     }
                 ]
             },
@@ -531,7 +1418,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 190,
+                        "x": 280,
                         "y": 610,
                         "size": 24,
                         "border_thickness": 2
@@ -539,12 +1426,85 @@
                 ],
                 "sections": [
                     {
-                        "name": "Nothin' Like a Good Stogie",
+                        "name": "Place the cigar in Harry's ashtray in the Dungeon Master's Lair.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachDMLair",
-                            "$canReachDMLairBackwards"
-                        ]
+                        "access_rules": ["$canReachDMLair,hotspot_harrys_ashtray"]
+                    }
+                ]
+            },
+            {
+                "name": "Now You Look Like Us, Which is an Improvement",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1260,
+                        "y": 530,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast SNAVIG on the two-headed monster in Hades.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHades,$canObtainSnavig"]
+                    }
+                ]
+            },
+            {
+                "name": "No Autographs",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1034,
+                        "y": 210,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on Jack's door in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["hotspot_jacks_door"]
+                    }
+                ]
+            },
+            {
+                "name": "No Bondage",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 764,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the dock winch with the rope on the hook in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["hotspot_dock_winch,rope"]
+                    }
+                ]
+            },
+            {
+                "name": "OBIDIL, Dried Up",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1080,
+                        "y": 720,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Run the soggy OBIDIL scroll through the spell checker in the Spell Lab.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canObtainObidil"]
                     }
                 ]
             },
@@ -561,9 +1521,47 @@
                 ],
                 "sections": [
                     {
-                        "name": "Oh Dear God, It's a Dragon!",
+                        "name": "Plug the dragon's nostrils with the inflatables and use the air pump on them in the Dragon Archipelago.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachDragonArchipelago,totem_griff,griffs_time_tunnel_items"]
+                        "access_rules": ["$canReachDragonArchipelagoDragon,griffs_air_pump,griffs_inflatable_raft,griffs_inflatable_sea_captain,hotspot_dragon_nostrils"]
+                    }
+                ]
+            },
+            {
+                "name": "Oh, Very Funny Guys",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 582,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on the door as Brog in Past Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachPortFoozlePast,totem_brog,hotspot_port_foozle_past_tavern_door"]
+                    }
+                ]
+            },
+            {
+                "name": "Oh, Wow! Talk About Deja Vu",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 310,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Make a cup of cocoa inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,jar_of_hotbugs,mug,flatheadia_fudge,hungus_lard,moss_of_mareilon,quelbee_honeycomb"]
                     }
                 ]
             },
@@ -580,9 +1578,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Old Scratch Winner!",
+                        "name": "Solve the maze on the old scratch ticket.",
                         "visibility_rules": [],
                         "access_rules": ["old_scratch_card"]
+                    }
+                ]
+            },
+            {
+                "name": "Only You Can Prevent Foozle Fires",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 794,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Look at the poster in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": []
                     }
                 ]
             },
@@ -591,7 +1608,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1170,
+                        "x": 1290,
                         "y": 530,
                         "size": 24,
                         "border_thickness": 2
@@ -599,9 +1616,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Open the Gates of Hell",
+                        "name": "Cast SNAVIG on Charon and punch out in Hades.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachHadesBeyondGates"]
+                        "access_rules": ["$canReachHades,$canObtainSnavig"]
                     }
                 ]
             },
@@ -610,7 +1627,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 250,
+                        "x": 340,
                         "y": 610,
                         "size": 24,
                         "border_thickness": 2
@@ -618,9 +1635,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Outsmart the Quelbees",
+                        "name": "Plug the hive with the hungus lard, remove it and slice the hive with the sword in the Dungeon Master's Lair.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachDMLair,hungus_lard,sword"]
+                        "access_rules": ["$canReachDMLair,hungus_lard,hotspot_quelbee_hive,sword"]
+                    }
+                ]
+            },
+            {
+                "name": "PermaSeal",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1010,
+                        "y": 1028,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Look at the PermaSeal container in the Monastery.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonastery"]
                     }
                 ]
             },
@@ -637,31 +1673,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Planetfall",
+                        "name": "Look at the computer inside Jack's shop in Port Foozle.",
                         "visibility_rules": [],
-                        "access_rules": ["lantern"]
+                        "access_rules": ["$canReachPortFoozleJacksShop"]
                     }
                 ]
             },
             {
-                "name": "Plants Are Man's Best Friend",
+                "name": "Please Don't THROCK the Grass",
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 280,
-                        "y": 610,
+                        "x": 620,
+                        "y": 790,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Plants Are Man's Best Friend",
+                        "name": "Look at the sign outside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachDMLair,spell_throck,snapdragon,hammer",
-                            "$canReachDMLairBackwards,spell_throck,snapdragon,hammer"
-                        ]
+                        "access_rules": ["$canReachGUETech"]
                     }
                 ]
             },
@@ -670,17 +1703,17 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 980,
-                        "y": 1028,
+                        "x": 1010,
+                        "y": 1058,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Port Foozle Time Tunnel",
+                        "name": "Cast NARWILE on the time tunnel in the Monastery Exhibit.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachMonastery,large_telegraph_hammer,spell_narwile"]
+                        "access_rules": ["$canReachMonasteryExhibit,large_telegraph_hammer,hotspot_closing_the_time_tunnels_hammer_slot,hotspot_closing_the_time_tunnels_lever,spell_narwile"]
                     }
                 ]
             },
@@ -689,7 +1722,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 160,
+                        "x": 370,
                         "y": 610,
                         "size": 24,
                         "border_thickness": 2
@@ -697,12 +1730,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Prozorked",
+                        "name": "Give the snapdragon the prozork tablet in the Dungeon Master's Lair.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachDMLair,prozork_tablet",
-                            "$canReachDMLairBackwards,prozork_tablet"
-                        ]
+                        "access_rules": ["$canReachDMLair,prozork_tablet,hotspot_snapdragon"]
                     }
                 ]
             },
@@ -711,7 +1741,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 310,
+                        "x": 400,
                         "y": 610,
                         "size": 24,
                         "border_thickness": 2
@@ -719,9 +1749,66 @@
                 ],
                 "sections": [
                     {
-                        "name": "Reassemble SNAVIG",
+                        "name": "Combine the mirrored scroll fragments in the mirror room inside the house in the Dungeon Master's Lair.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachDMLairInterior,spell_throck,snapdragon,hammer"]
+                        "access_rules": ["$canReachDMLairInterior,hotspot_mirror,scroll_fragment_ans,scroll_fragment_giv"]
+                    }
+                ]
+            },
+            {
+                "name": "Restocked on Gruesday",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 650,
+                        "y": 790,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the flyer on the bulletin board inside GUE Tech.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachGUETech"]
+                    }
+                ]
+            },
+            {
+                "name": "Right. Hello. Yes. Uh, This is Sneffle",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 430,
+                        "y": 610,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Listen to the message on the answering machine inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
+                    }
+                ]
+            },
+            {
+                "name": "Right. Uh, Sorry. It's Me Again. Sneffle",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 190,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Listen to the message on the answering machine inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
                     }
                 ]
             },
@@ -730,7 +1817,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1050,
+                        "x": 960,
                         "y": 750,
                         "size": 24,
                         "border_thickness": 2
@@ -738,9 +1825,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "SNAVIG, Repaired",
+                        "name": "Run the torn SNAVIG scroll through the spell checker in the Spell Lab.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachDMLairInterior,spell_throck,snapdragon,hammer,$canReachSpellLab"]
+                        "access_rules": ["$canObtainSnavig"]
                     }
                 ]
             },
@@ -749,7 +1836,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 834,
+                        "x": 910,
                         "y": 550,
                         "size": 24,
                         "border_thickness": 2
@@ -757,9 +1844,28 @@
                 ],
                 "sections": [
                     {
-                        "name": "Souvenir",
+                        "name": "Press a zorkmid at the Flood Control Dam #3 station.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachSubwayFloodControlDam,pouch_of_zorkmids"]
+                        "access_rules": ["$canReachSubwayFloodControlDam,pouch_of_zorkmids,hotspot_souvenir_coin_slot"]
+                    }
+                ]
+            },
+            {
+                "name": "Straight to Hell",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1040,
+                        "y": 1028,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Set the totemizer destination to Straight to Hell, turn off PermaSeal and totemize yourself in the Monastery.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonastery,totemizer_destination_straight_to_hell,[hotspot_totemizer_wheels],hotspot_totemizer_switch"]
                     }
                 ]
             },
@@ -776,9 +1882,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Strip Grue, Fire, Water",
+                        "name": "Win the game of strip grue, fire, water against Jack inside the tavern in Past Port Foozle.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachPortFoozlePast,totem_lucy,lucys_time_tunnel_items"]
+                        "access_rules": ["$canReachPortFoozlePastTavern,lucys_playing_card_1_pip,lucys_playing_card_2_pips,lucys_playing_card_3_pips,lucys_playing_card_4_pips,hotspot_tavern_fly,hotspot_alpines_quandry_card_slots"]
                     }
                 ]
             },
@@ -787,20 +1893,55 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 740,
-                        "y": 760,
+                        "x": 680,
+                        "y": 790,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Sucking Rocks",
+                        "name": "Place and activate the perma-suck machine while the zork rocks are loose in the vending machine inside GUE Tech.",
                         "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachGUETech,pouch_of_zorkmids,perma_suck_machine",
-                            "$canReachGUETechBackwards,pouch_of_zorkmids,perma_suck_machine"
-                        ]
+                        "access_rules": ["$canReachGUETech,$canLoosenZorkRocks,perma_suck_machine,hotspot_candy_machine_vacuum_slot"]
+                    }
+                ]
+            },
+            {
+                "name": "Talk to Me Grand Inquisitor",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 824,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the grand inquisitor doll in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["hotspot_grand_inquisitor_doll"]
+                    }
+                ]
+            },
+            {
+                "name": "Taming Your Snapdragon",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 220,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior"]
                     }
                 ]
             },
@@ -817,9 +1958,66 @@
                 ],
                 "sections": [
                     {
-                        "name": "Thar She Blows!",
+                        "name": "Pop the sea captain with the dragon tooth while the inflatables are tied with the rope and the coconut is in the raft inside the dragon's mouth in the Dragon Archipelago.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachDragonArchipelago,totem_griff,griffs_time_tunnel_items"]
+                        "access_rules": ["$canReachDragonArchipelagoDragon,griffs_air_pump,griffs_inflatable_raft,griffs_inflatable_sea_captain,hotspot_dragon_nostrils,griffs_dragon_tooth"]
+                    }
+                ]
+            },
+            {
+                "name": "That's a Rope",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 854,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on Jack's door with the rope in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["hotspot_jacks_door,rope"]
+                    }
+                ]
+            },
+            {
+                "name": "That's it! Just Keep Hitting Those Buttons",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 462,
+                        "y": 966,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Randomly press buttons on the complex subway map in the Crossroads station.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayCrossroads","$canReachSubwayAlternate"]
+                    }
+                ]
+            },
+            {
+                "name": "That's Still a Rope",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 990,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Use the rope on the invisible bridge guard at the Spell Lab.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLabBridge,spell_glorf"]
                     }
                 ]
             },
@@ -828,7 +2026,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 794,
+                        "x": 884,
                         "y": 240,
                         "size": 24,
                         "border_thickness": 2
@@ -836,9 +2034,85 @@
                 ],
                 "sections": [
                     {
-                        "name": "That's the Spirit!",
+                        "name": "Turn up the volume of the loudspeaker in Port Foozle to the maximum level.",
                         "visibility_rules": [],
-                        "access_rules": []
+                        "access_rules": ["hotspot_loudspeaker_volume_buttons"]
+                    }
+                ]
+            },
+            {
+                "name": "The Alchemical Debacle",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1040,
+                        "y": 1058,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the display at the Monastery Exhibit.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonasteryExhibit"]
+                    }
+                ]
+            },
+            {
+                "name": "The Endless Fire",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1070,
+                        "y": 1058,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the display at the Monastery Exhibit.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonasteryExhibit"]
+                    }
+                ]
+            },
+            {
+                "name": "The Flatheadian Fudge Fiasco",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1100,
+                        "y": 1058,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the display at the Monastery Exhibit.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonasteryExhibit"]
+                    }
+                ]
+            },
+            {
+                "name": "The Perils of Magic",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1130,
+                        "y": 1058,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Look at the sign at the Monastery Exhibit.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachMonasteryExhibit"]
                     }
                 ]
             },
@@ -847,7 +2121,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 224,
+                        "x": 254,
                         "y": 880,
                         "size": 24,
                         "border_thickness": 2
@@ -855,9 +2129,66 @@
                 ],
                 "sections": [
                     {
-                        "name": "The Underground Underground",
+                        "name": "Go through the turnstile after inserting a subway token at the Crossroads station.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachCrossroads,subway_token"]
+                        "access_rules": ["$canReachCrossroads,subway_token,hotspot_subway_token_slot"]
+                    }
+                ]
+            },
+            {
+                "name": "This Doesn't Look Anything Like the Brochure",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 282,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Visit the Dragon Archipelago as Lucy.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDragonArchipelago,totem_lucy"]
+                    }
+                ]
+            },
+            {
+                "name": "THROCKed Mushroom, Hammered",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 250,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast THROCK on the spring mushroom and hit it with the hammer behind the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,spell_throck,hotspot_spring_mushroom,hammer"]
+                    }
+                ]
+            },
+            {
+                "name": "Time Travel for Dummies",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 724,
+                        "y": 690,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book inside the dunce locker in the GUE Tech hallway.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canOpenLockers,$canReachGUETechHallway"]
                     }
                 ]
             },
@@ -874,78 +2205,18 @@
                 ],
                 "sections": [
                     {
-                        "name": "Totemized Daily Billboard Functioning Correctly",
+                        "name": "Look at the billboard at the inquisition headquarters outside Port Foozle.",
                         "visibility_rules": [],
                         "access_rules": []
                     }
                 ]
             },
             {
-                "name": "Umbrella Flowers",
+                "name": "Uh-Oh. Brog Can't Swim",
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 254,
-                        "y": 880,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Umbrella Flowers",
-                        "visibility_rules": [],
-                        "access_rules": ["$canReachSpellLab,blank_scroll_box_access"]
-                    }
-                ]
-            },
-            {
-                "name": "Useless, But Fun",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 924,
-                        "y": 550,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Useless, But Fun",
-                        "visibility_rules": [],
-                        "access_rules": ["$canReachSubwayFloodControlDam,spell_golgatem"]
-                    }
-                ]
-            },
-            {
-                "name": "Want Some Rye? Course Ya Do!",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 220,
-                        "y": 610,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Want Some Rye? Course Ya Do!",
-                        "visibility_rules": [],
-                        "access_rules": [
-                            "$canReachDMLair,mead_light,zimdor_scroll",
-                            "$canReachDMLairBackwards,mead_light,zimdom_scroll"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "We Got a High Roller!",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 582,
+                        "x": 312,
                         "y": 1326,
                         "size": 24,
                         "border_thickness": 2
@@ -953,112 +2224,14 @@
                 ],
                 "sections": [
                     {
-                        "name": "We Got a High Roller!",
+                        "name": "Visit the Dragon Archipelago as Brog.",
                         "visibility_rules": [],
-                        "access_rules": ["$canReachPortFoozlePast,totem_lucy,lucys_time_tunnel_items"]
+                        "access_rules": ["$canReachDragonArchipelago,totem_brog"]
                     }
                 ]
             },
             {
-                "name": "White House Time Tunnel",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 340,
-                        "y": 610,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "White House Time Tunnel",
-                        "visibility_rules": [],
-                        "access_rules": ["$canReachDMLairInterior,spell_narwile"]
-                    }
-                ]
-            },
-            {
-                "name": "Wow! I've Never Gone Inside Him Before!",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 370,
-                        "y": 610,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Wow! I've Never Gone Inside Him Before!",
-                        "visibility_rules": [],
-                        "access_rules": ["$canReachDMLairInterior,spell_obidil"]
-                    }
-                ]
-            },
-            {
-                "name": "You Gained 86 Experience Points",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 960,
-                        "y": 750,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "You Gained 86 Experience Points",
-                        "visibility_rules": [],
-                        "access_rules": ["$canReachSpellLabBridge,sword"]
-                    }
-                ]
-            },
-            {
-                "name": "Death: Arrested With Jack",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 854,
-                        "y": 240,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Death: Arrested With Jack",
-                        "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": ["lantern"]
-                    }
-                ]
-            },
-            {
-                "name": "Death: Attacked the Quelbees",
-                "map_locations": [
-                    {
-                        "map": "map",
-                        "x": 400,
-                        "y": 610,
-                        "size": 24,
-                        "border_thickness": 2
-                    }
-                ],
-                "sections": [
-                    {
-                        "name": "Death: Attacked the Quelbees",
-                        "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": [
-                            "$canReachDMLair,sword",
-                            "$canReachDMLairBackwards,sword"
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Death: Climbed Out of the Well",
+                "name": "Umbrella Flowers",
                 "map_locations": [
                     {
                         "map": "map",
@@ -1070,7 +2243,368 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Climbed Out of the Well",
+                        "name": "Cast BEBURTT on the umbrella flowers at the Crossroads.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canObtainBeburtt"]
+                    }
+                ]
+            },
+            {
+                "name": "Up",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1152,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Raise the mailbox flag as Lucy outside the White House.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_lucy,hotspot_mailbox_flag"]
+                    }
+                ]
+            },
+            {
+                "name": "Useless, But Fun",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 940,
+                        "y": 550,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast GOLGATEM above Flood Control Dam #3.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSubwayFloodControlDam,spell_golgatem"]
+                    }
+                ]
+            },
+            {
+                "name": "Uuuuup",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1182,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Raise the mailbox flag as Griff outside the White House.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachWhiteHouse,totem_griff,hotspot_mailbox_flag"]
+                    }
+                ]
+            },
+            {
+                "name": "Voyage of Captain Zahab",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1265,
+                        "y": 700,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the book at the Hades station.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachHadesShore"]
+                    }
+                ]
+            },
+            {
+                "name": "Want Some Rye? Course Ya Do!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 280,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Add the mead light to Harry's bird bath and cast ZIMDOR on it in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,hotspot_harrys_ashtray,mead_light,zimdor_scroll,hotspot_harrys_bird_bath"]
+                    }
+                ]
+            },
+            {
+                "name": "We Don't Serve Your Kind Here",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 642,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on the door as Griff in Past Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachPortFoozlePast,totem_griff,hotspot_port_foozle_past_tavern_door"]
+                    }
+                ]
+            },
+            {
+                "name": "We Got a High Roller!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 672,
+                        "y": 1326,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Win the game of Alpine's Quandry inside the tavern in Past Port Foozle. Solution: 4+1 (Fly), 1, 2, 3 (or 3, 2)",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachPortFoozlePastTavern,lucys_playing_card_1_pip,lucys_playing_card_2_pips,lucys_playing_card_3_pips,lucys_playing_card_4_pips,hotspot_tavern_fly,hotspot_alpines_quandry_card_slots"]
+                    }
+                ]
+            },
+            {
+                "name": "What Are You, Stupid?",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 914,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on Jack's door with the plastic six-pack holder in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["hotspot_jacks_door,plastic_six_pack_holder"]
+                    }
+                ]
+            },
+            {
+                "name": "White House Time Tunnel",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 310,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast NARWILE on the time tunnel inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,hotspot_closet_door,spell_narwile"]
+                    }
+                ]
+            },
+            {
+                "name": "Wow! I've Never Gone Inside Him Before!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 340,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast OBIDIL on the walking castle inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,hotspot_blinds,$canObtainObidil"]
+                    }
+                ]
+            },
+            {
+                "name": "yaD gohdnuorgrednU - 3 yrauborF",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 370,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Read the diary on the bed in the mirror room inside the house in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLairInterior,hotspot_mirror"]
+                    }
+                ]
+            },
+            {
+                "name": "Your Puny Weapons Don't Phase Me, Baby!",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 400,
+                        "y": 640,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Attack Harry with the sword in the Dungeon Master's Lair.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachDMLair,sword,hotspot_harry"]
+                    }
+                ]
+            },
+            {
+                "name": "You Don't Go Messing With a Man's Zipper",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1020,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cast REZROV on the invisible bridge guard at the Spell Lab.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLabBridge,spell_rezrov"]
+                    }
+                ]
+            },
+            {
+                "name": "You Gained 86 Experience Points",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1050,
+                        "y": 750,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cut the rope bridge with the sword at the Spell Lab.",
+                        "visibility_rules": [],
+                        "access_rules": ["$canReachSpellLabBridge,sword,hotspot_rope_bridge"]
+                    }
+                ]
+            },
+            {
+                "name": "You One of Them Agitators, Ain't Ya?",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 944,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Knock on the window in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": []
+                    }
+                ]
+            },
+            {
+                "name": "You Want a Piece of Me, Dock Boy? or Girl",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 974,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Activate the dock winch in Port Foozle.",
+                        "visibility_rules": [],
+                        "access_rules": ["hotspot_dock_winch"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Arrested With Jack",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 1004,
+                        "y": 240,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Don't hide in the barrel after setting the grand inquisitor doll on fire in Port Foozle.",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["lantern,hotspot_jacks_door,hotspot_grand_inquisitor_doll"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Attacked the Quelbees",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 280,
+                        "y": 670,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Attack the quelbee hive with the sword in the Dungeon Master's Lair.",
+                        "visibility_rules": ["$hasSettingDeathsanity"],
+                        "access_rules": ["$canReachDMLair,sword,hotspot_quelbee_hive"]
+                    }
+                ]
+            },
+            {
+                "name": "Death: Climbed Out of the Well",
+                "map_locations": [
+                    {
+                        "map": "map",
+                        "x": 314,
+                        "y": 880,
+                        "size": 24,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Climb out of the well after entering the Underground.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
                         "access_rules": ["$canReachCrossroads"]
                     }
@@ -1089,9 +2623,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Eaten by a Grue",
+                        "name": "Go down the well without Dalboz outside Port Foozle and wait.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": ["rope"]
+                        "access_rules": ["rope,hotspot_well"]
                     }
                 ]
             },
@@ -1100,7 +2634,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 590,
+                        "x": 710,
                         "y": 790,
                         "size": 24,
                         "border_thickness": 2
@@ -1108,12 +2642,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Jumped in Bottomless Pit",
+                        "name": "Jump in one of the bottomless pits outside GUE Tech.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": [
-                            "$canReachGUETech",
-                            "$canReachGUETechBackwards"
-                        ]
+                        "access_rules": ["$canReachGUETech"]
                     }
                 ]
             },
@@ -1122,7 +2653,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 642,
+                        "x": 702,
                         "y": 1326,
                         "size": 24,
                         "border_thickness": 2
@@ -1130,9 +2661,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Lost Game of Strip Grue, Fire, Water",
+                        "name": "Lose the game of strip grue, fire, water against Jack inside the tavern in Past Port Foozle.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": ["$canReachPortFoozlePast,totem_lucy,lucys_time_tunnel_items"]
+                        "access_rules": ["$canReachPortFoozlePastTavern,lucys_playing_card_1_pip,lucys_playing_card_2_pips,lucys_playing_card_3_pips,lucys_playing_card_4_pips,hotspot_tavern_fly,hotspot_alpines_quandry_card_slots"]
                     }
                 ]
             },
@@ -1141,7 +2672,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1265,
+                        "x": 1295,
                         "y": 700,
                         "size": 24,
                         "border_thickness": 2
@@ -1149,7 +2680,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Lost Soul to Old Scratch",
+                        "name": "Make 3 mistakes while solving the maze on the old scratch ticket.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
                         "access_rules": ["old_scratch_card"]
                     }
@@ -1160,20 +2691,17 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 430,
-                        "y": 610,
+                        "x": 310,
+                        "y": 670,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Death: Outsmarted by the Quelbees",
+                        "name": "Plug the hive with the hungus lard, remove it and wait in the Dungeon Master's Lair.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": [
-                            "$canReachDMLair,hungus_lard",
-                            "$canReachDMLairBackwards,hungus_lard"
-                        ]
+                        "access_rules": ["$canReachDMLair,hungus_lard,hotspot_quelbee_hive"]
                     }
                 ]
             },
@@ -1190,7 +2718,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Sliced up by the Invisible Guard",
+                        "name": "Annoy the invisible bridge guard at the Spell Lab until he kills you.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
                         "access_rules": ["$canReachSpellLabBridge"]
                     }
@@ -1201,7 +2729,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 620,
+                        "x": 740,
                         "y": 790,
                         "size": 24,
                         "border_thickness": 2
@@ -1209,12 +2737,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Step Into the Infinite",
+                        "name": "Cast IGRAM on the CORRIDOR purple word before the infinite hallway inside GUE Tech and move forward.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": [
-                            "$canReachGUETech,spell_igram",
-                            "$canReachGUETechBackwards,spell_igram"
-                        ]
+                        "access_rules": ["$canReachGUETech,spell_igram,hotspot_purple_words"]
                     }
                 ]
             },
@@ -1223,7 +2748,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 282,
+                        "x": 342,
                         "y": 1326,
                         "size": 24,
                         "border_thickness": 2
@@ -1231,9 +2756,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Swallowed by a Dragon",
+                        "name": "Don't move out of the dragon's mouth after popping an inflatable at the Dragon Archipelago.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": ["$canReachDragonArchipelago,totem_griff,griffs_time_tunnel_items"]
+                        "access_rules": ["$canReachDragonArchipelagoDragon,griffs_air_pump,griffs_inflatable_raft,griffs_inflatable_sea_captain,hotspot_dragon_nostrils,griffs_dragon_tooth"]
                     }
                 ]
             },
@@ -1242,7 +2767,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 680,
+                        "x": 770,
                         "y": 790,
                         "size": 24,
                         "border_thickness": 2
@@ -1250,12 +2775,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: THROCKed the Grass",
+                        "name": "Cast THROCK on the grass outside GUE Tech.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": [
-                            "$canReachGUETech,spell_throck",
-                            "$canReachGUETechBackwards,spell_throck"
-                        ]
+                        "access_rules": ["$canReachGUETech,spell_throck,hotspot_gue_tech_grass"]
                     }
                 ]
             },
@@ -1264,7 +2786,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1010,
+                        "x": 1070,
                         "y": 1028,
                         "size": 24,
                         "border_thickness": 2
@@ -1272,9 +2794,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Totemized?",
+                        "name": "Totemize yourself after turning off PermaSeal at the Monastery.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": ["$canReachMonastery"]
+                        "access_rules": ["$canReachMonastery,hotspot_totemizer_wheels,hotspot_totemizer_switch"]
                     }
                 ]
             },
@@ -1283,7 +2805,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1040,
+                        "x": 1100,
                         "y": 1028,
                         "size": 24,
                         "border_thickness": 2
@@ -1291,9 +2813,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Totemized... Permanently",
+                        "name": "Totemize yourself without turning off PermaSeal at the Monastery.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": ["$canReachMonastery"]
+                        "access_rules": ["$canReachMonastery,hotspot_totemizer_switch"]
                     }
                 ]
             },
@@ -1302,17 +2824,17 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 1230,
-                        "y": 530,
+                        "x": 1185,
+                        "y": 560,
                         "size": 24,
                         "border_thickness": 2
                     }
                 ],
                 "sections": [
                     {
-                        "name": "Death: You're Not Charon!?",
+                        "name": "Punch out with the wrong card after casting SNAVIG on Charon in Hades.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": ["$canReachHadesBeyondGates"]
+                        "access_rules": ["$canReachHades,$canObtainSnavig"]
                     }
                 ]
             },
@@ -1321,7 +2843,7 @@
                 "map_locations": [
                     {
                         "map": "map",
-                        "x": 650,
+                        "x": 800,
                         "y": 790,
                         "size": 24,
                         "border_thickness": 2
@@ -1329,12 +2851,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Death: Zork Rocks Exploded",
+                        "name": "Hold on to the activated zork rocks until they explode inside GUE Tech.",
                         "visibility_rules": ["$hasSettingDeathsanity"],
-                        "access_rules": [
-                            "$canReachGUETech,zork_rocks,pouch_of_zorkmids",
-                            "$canReachGUETechBackwards,zork_rocks,pouch_of_zorkmids"
-                        ]
+                        "access_rules": ["$canActivateZorkRocks"]
                     }
                 ]
             }

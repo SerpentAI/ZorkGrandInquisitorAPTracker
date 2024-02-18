@@ -1,7 +1,7 @@
 {
     "name": "Zork Grand Inquisitor",
     "game_name": "zork_grand_inquisitor",
-    "package_version": "0.1.0",
+    "package_version": "0.2.0",
     "package_uid": "ap_zork_grand_inquisitor",
     "author": "Serpent.AI",
     "variants": {

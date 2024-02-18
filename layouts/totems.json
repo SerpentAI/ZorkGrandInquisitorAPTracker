@@ -18,15 +18,23 @@
                         "rows": [
                             [
                                 "totem_brog",
-                                "brogs_time_tunnel_items"
+                                "brogs_flickering_torch",
+                                "brogs_grue_egg",
+                                "brogs_plank"
                             ],
                             [
                                 "totem_griff",
-                                "griffs_time_tunnel_items"
+                                "griffs_air_pump",
+                                "griffs_dragon_tooth",
+                                "griffs_inflatable_raft",
+                                "griffs_inflatable_sea_captain"
                             ],
                             [
                                 "totem_lucy",
-                                "lucys_time_tunnel_items"
+                                "lucys_playing_card_1_pip",
+                                "lucys_playing_card_2_pips",
+                                "lucys_playing_card_3_pips",
+                                "lucys_playing_card_4_pips"
                             ]
                         ]
                     }

@@ -47,7 +47,7 @@ function onClear(slotData)
 
     -- Reset Settings
     print(slotData['goal'])
-    print(slotData['early_rope_and_lantern'])
+    print(slotData['quick_port_foozle'])
     print(slotData['deathsanity'])
 
     Tracker:FindObjectForCode("goal_three_artifacts").Active = false
@@ -82,19 +82,19 @@ function onClear(slotData)
         end
     end
 
-    Tracker:FindObjectForCode("setting_early_rope_and_lantern").Active = false
+    Tracker:FindObjectForCode("setting_quick_port_foozle").Active = false
 
-    if slotData['early_rope_and_lantern'] then
-        local earlyRopeAndLanternValue = slotData['early_rope_and_lantern']
-        local earlyRopeAndLanternTrackerKey = nil
+    if slotData['quick_port_foozle'] then
+        local quickPortFoozleValue = slotData['quick_port_foozle']
+        local quickPortFoozleTrackerKey = nil
 
-        if earlyRopeAndLanternValue == 1 then
-            earlyRopeAndLanternTrackerKey = "setting_early_rope_and_lantern"
+        if quickPortFoozleValue == 1 then
+            quickPortFoozleTrackerKey = "setting_quick_port_foozle"
         end
 
-        if earlyRopeAndLanternTrackerKey then
-            local earlyRopeAndLanternTrackerObject = Tracker:FindObjectForCode(earlyRopeAndLanternTrackerKey)
-            earlyRopeAndLanternTrackerObject.Active = true
+        if quickPortFoozleTrackerKey then
+            local quickPortFoozleTrackerObject = Tracker:FindObjectForCode(quickPortFoozleTrackerKey)
+            quickPortFoozleTrackerObject.Active = true
         end
     end
 end

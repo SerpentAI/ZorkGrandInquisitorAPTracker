@@ -17,30 +17,36 @@
                         "h_alignment": "left",
                         "rows": [
                             [
+                                "flatheadia_fudge",
                                 "hammer",
                                 "hungus_lard",
+                                "jar_of_hotbugs",
                                 "lantern",
                                 "large_telegraph_hammer",
                                 "map",
                                 "mead_light",
-                                "old_scratch_card"
+                                "moss_of_mareilon",
+                                "mug"
                             ],
                             [
+                                "old_scratch_card",
                                 "perma_suck_machine",
                                 "plastic_six_pack_holder",
                                 "prozork_tablet",
+                                "quelbee_honeycomb",
                                 "rope",
+                                "scroll_fragment_ans",
+                                "scroll_fragment_giv",
                                 "shovel",
-                                "snapdragon",
-                                "student_id"
+                                "snapdragon"
                             ],
                             [
+                                "student_id",
                                 "subway_token",
                                 "sword",
                                 "zimdor_scroll",
                                 "zork_rocks",
-                                "pouch_of_zorkmids",
-                                "blank_scroll_box_access"
+                                "pouch_of_zorkmids"
                             ]
                         ]
                     }

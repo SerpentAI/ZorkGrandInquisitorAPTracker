@@ -1,0 +1,29 @@
+{
+    "totemizer_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "192, 64",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "right",
+                        "rows": [
+                            [
+                                "totemizer_destination_hall_of_inquisition",
+                                "totemizer_destination_straight_to_hell"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
