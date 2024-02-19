@@ -378,7 +378,7 @@
                     {
                         "name": "Stash the activated zork rocks in the dented locker in the GUE Tech hallway.",
                         "visibility_rules": [],
-                        "access_rules": ["$canActivateZorkRocks,$canReachGUETechHallway,hotspot_dented_locker"]
+                        "access_rules": ["$canActivateZorkRocks,$canReachGUETechHallway,spell_igram,hotspot_purple_words,hotspot_dented_locker"]
                     }
                 ]
             },
